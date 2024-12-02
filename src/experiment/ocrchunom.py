@@ -81,7 +81,7 @@ def pdf_to_image(pdf_path, start_page, end_page, output_dir):
         return []
 
     image_paths = []
-    for page_num in range(start_page, end_page + 1):  # Chuyển đổi các trang từ start_page đến end_page
+    for page_num in range(start_page-1, end_page):  # Chuyển đổi các trang từ start_page đến end_page
         page = doc.load_page(page_num)
         
         # Chuyển trang thành hình ảnh (pixmap)
@@ -99,13 +99,13 @@ def save_ocr_result(result_text, output_dir, page_num, is_json=False):
     if is_json:
         # Lưu kết quả OCR dưới dạng JSON
         result_dict = {"page": page_num, "ocr_text": result_text}
-        result_path = os.path.join(output_dir, f"ocr_result_page_{page_num + 1}.json")
+        result_path = os.path.join(output_dir, f"ocr_result_page_{page_num}.json")
         with open(result_path, "w", encoding="utf-8") as json_file:
             json.dump(result_dict, json_file, ensure_ascii=False, indent=4)
         print(f"Lưu kết quả OCR thành công vào file {result_path}")
     else:
         # Lưu kết quả OCR dưới dạng TXT
-        result_path = os.path.join(output_dir, f"ocr_result_page_{page_num + 1}.txt")
+        result_path = os.path.join(output_dir, f"ocr_result_page_{page_num}.txt")
         with open(result_path, "w", encoding="utf-8") as txt_file:
             txt_file.write(result_text)
         print(f"Lưu kết quả OCR thành công vào file {result_path}")
@@ -113,15 +113,17 @@ def save_ocr_result(result_text, output_dir, page_num, is_json=False):
 # Hàm chính để gọi các bước
 def main():
     pdf_path = 'testdata.pdf'  # Đường dẫn đến file PDF của bạn
-    output_dir = 'output'  # Đảm bảo thư mục output tồn tại
+    output_dir = 'Output_OCR_Nom'  # Đảm bảo thư mục output tồn tại
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-
+    
+    total_pages = 0
     # Nhập vào số trang đầu và trang cuối từ người dùng
     try:
-        start_page = int(input("Nhập số trang đầu (0-based index): "))
-        end_page = int(input("Nhập số trang cuối (0-based index): "))
+        start_page = int(input("Nhập số trang đầu: "))
+        end_page = int(input("Nhập số trang cuối: "))
+        total_pages = end_page - start_page + 1
     except ValueError:
         print("Vui lòng nhập số hợp lệ.")
         return
@@ -145,7 +147,7 @@ def main():
                 result_text = perform_ocr(file_name, ocr_id)
                 if result_text:
                     # Lưu kết quả OCR dưới dạng TXT hoặc JSON
-                    save_ocr_result(result_text, output_dir, page_num, is_json=True)  # set is_json=False để lưu dưới dạng TXT
+                    save_ocr_result(result_text, output_dir, page_num + start_page, is_json=True)  # set is_json=False để lưu dưới dạng TXT
 
 if __name__ == "__main__":
     main()
