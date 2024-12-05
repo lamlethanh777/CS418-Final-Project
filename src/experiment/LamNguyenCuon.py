@@ -6,6 +6,7 @@ import xlsxwriter
 import openpyxl
 import ast
 import json
+from preprocess_qngu import processText
 
 def load_sino_nom_similar_dic(filename):
     wb = openpyxl.load_workbook(filename)
@@ -195,10 +196,9 @@ def write_to_excel(nom_sentences ,qn_words_string, sino_similar_dict, qn_sino_di
     workbook.close()
 
 
-
 def processAlignment(qn_sino_dict, sino_similar_dict):
-    input_nom_folder = "Output_OCR_Nom"
-    output_qngu_folder = "Output_OCR_QN"
+    input_nom_folder = "Output_OCR_Nom test"
+    output_qngu_folder = "Output_OCR_QN test"
     output_file = "output.xlsx"
     nom_paragraph = load_json_files_from_folder(input_nom_folder)
     nom_sentences = []
@@ -211,6 +211,9 @@ def processAlignment(qn_sino_dict, sino_similar_dict):
     for qn_sentence in qngu_sentences:
         if "ocr_text" in qn_sentence:  # Kiểm tra trường ocr_text có tồn tại
             for line in qn_sentence["ocr_text"]:  # Duyệt từng dòng trong ocr_text
+                print(line)
+                line = processText(line)  # Tiền xử l   ý quốc ngữ dòng văn bản
+                print(line)
                 qn_words_string.extend(line.split())  # Tách dòng thành các từ và thêm vào danh sách
     
     write_to_excel(nom_sentences, qn_words_string, sino_similar_dict, qn_sino_dict, output_file)
@@ -218,7 +221,7 @@ def processAlignment(qn_sino_dict, sino_similar_dict):
 
 if __name__ == "__main__":
     sino_similar_filename = "SinoNom_similar_Dic.xlsx"
-    qn_sino_filename = "QuocNgu_SinoNom_Dic.xlsx"
+    qn_sino_filename = "Standardized_QuocNgu_SinoNom_Dic.xlsx"
 
     qn_sino_dict = load_quoc_ngu_sino_nom_dic(qn_sino_filename)
     sino_similar_dict = load_sino_nom_similar_dic(sino_similar_filename)
