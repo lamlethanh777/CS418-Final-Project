@@ -51,7 +51,7 @@ def load_json_files_from_folder(folder_path):
 
 def create_ocr_nom_string(paragraph):
     results = []
-    for line in paragraph["ocr_text"]:  # Duyệt từng dòng trong 'ocr_text'
+    for line in paragraph:  # Duyệt từng dòng trong 'ocr_text'
         results.extend(list(line))  # Tách từng ký tự và thêm vào danh sách
     return results
 
@@ -107,7 +107,7 @@ def Levenshtein_Align_Line(ocr_sentence, qn_sentence, nom_sino_dict, qn_sino_dic
     return aligned_result_ocr[::-1], aligned_result_qn[::-1]  # Đảo ngược để đúng thứ tự
 
 
-def write_to_excel(nom_paragraphs ,qn_words_string, sino_similar_dict, qn_sino_dict, output_file):
+def write_to_excel(nom_sentences ,qn_words_string, sino_similar_dict, qn_sino_dict, output_file):
     workbook = xlsxwriter.Workbook(output_file)
     worksheet = workbook.add_worksheet()
     
@@ -139,10 +139,9 @@ def write_to_excel(nom_paragraphs ,qn_words_string, sino_similar_dict, qn_sino_d
     #         print(aligned_ocrLinesString)
     #         print(aligned_qnLinesString)
 
-    nom_words_string= create_ocr_nom_string(nom_paragraphs[2])
+    nom_words_string= create_ocr_nom_string(nom_sentences)
 
     aligned_nomLinesString, aligned_qnLinesString = Levenshtein_Align_Line(nom_words_string, qn_words_string, sino_similar_dict, qn_sino_dict)
-
         
     # Xử lý ghi nội dung vào hai cột SinoNom OCR và Chữ Quốc Ngữ
     nom_format_pairs = []
@@ -151,7 +150,7 @@ def write_to_excel(nom_paragraphs ,qn_words_string, sino_similar_dict, qn_sino_d
     index_ocr_line = 0
     index_ocr_word = 0
 
-    length_ocr_line = len(nom_paragraphs[2]['ocr_text'][index_ocr_line])
+    length_ocr_line = len(nom_sentences[index_ocr_line])
 
 
     worksheet.write(row_index_global, 0, '1', black_text_format)
@@ -188,8 +187,8 @@ def write_to_excel(nom_paragraphs ,qn_words_string, sino_similar_dict, qn_sino_d
             index_ocr_word = 0
 
             row_index_global += 1
-            if (index_ocr_line) >= len(nom_paragraphs[2]['ocr_text']): break
-            length_ocr_line = len(nom_paragraphs[2]['ocr_text'][index_ocr_line])
+            if (index_ocr_line) >= len(nom_sentences): break
+            length_ocr_line = len(nom_sentences[index_ocr_line])
 
             nom_format_pairs = []
             qn_format_pairs = []
@@ -202,14 +201,19 @@ def processAlignment(qn_sino_dict, sino_similar_dict):
     output_qngu_folder = "Output_OCR_QN"
     output_file = "output.xlsx"
     nom_paragraph = load_json_files_from_folder(input_nom_folder)
+    nom_sentences = []
+    for paragraph in reversed(nom_paragraph):
+        if "ocr_text" in paragraph:
+            nom_sentences.extend(paragraph["ocr_text"])
+
     qngu_sentences = load_json_files_from_folder(output_qngu_folder)
     qn_words_string = []
     for qn_sentence in qngu_sentences:
         if "ocr_text" in qn_sentence:  # Kiểm tra trường ocr_text có tồn tại
             for line in qn_sentence["ocr_text"]:  # Duyệt từng dòng trong ocr_text
                 qn_words_string.extend(line.split())  # Tách dòng thành các từ và thêm vào danh sách
-
-    write_to_excel(nom_paragraph, qn_words_string, sino_similar_dict, qn_sino_dict, output_file)
+    
+    write_to_excel(nom_sentences, qn_words_string, sino_similar_dict, qn_sino_dict, output_file)
 
 
 if __name__ == "__main__":
