@@ -74,7 +74,9 @@ def split_word_recursive(word, dictionary):
 def processWords(tokenized_words, dictionary):
     output_words = []
     for word in tokenized_words:
-        if not re.search(r'[a-zA-Z0-9]', word):  # Nếu không có chữ hoặc số
+        if re.search(r'[0-9]',word):
+            continue
+        if not re.search(r'[a-zA-Z]', word):  # Nếu không có chữ hoặc số
             continue  # Bỏ qua word này
         # Loại bỏ dấu câu và chuyển từ thành chữ thường
         clean_word = re.sub(r'[^\w\s]', '', word).lower()
