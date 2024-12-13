@@ -144,7 +144,7 @@ def perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir):
         return
 
     pdf_base_name = os.path.splitext(pdf_name)[0]
-    output_folder = os.path.join(output_dir, pdf_base_name, "nom")
+    output_folder = output_dir
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -227,23 +227,23 @@ def load_ocr_results_from_json_dir(ocr_dir):
 def load_nom_ocr_results_from_extracted_dir(extracted_dir):
     ocr_results = {}
     for pdf_name in os.listdir(extracted_dir):
-        pdf_dir = os.path.join(extracted_dir, pdf_name + "/nom")
-        if not os.path.isdir(pdf_dir):
+        if not os.path.isdir(extracted_dir):
             continue
-        ocr_results[pdf_name] = load_ocr_results_from_json_dir(pdf_dir)
+        ocr_results[pdf_name] = load_ocr_results_from_json_dir(extracted_dir)
 
     return ocr_results
 
 
+
 # Ví dụ sử dụng:
 # Tên thư mục chứa ảnh
-imgs_dir = "../../../../extracted_imgs"
+imgs_dir = "../extracted_imgs"
 # Tên thư mục lưu kết quả
-output_dir = "ocr_results"
+output_dir = "Output_OCR_Nom_Sach_002"
 # Tên PDF
 pdf_name = "Sach-Nom-Cong-Giao-1995-002-cropped"
 # Phạm vi trang
-start_page = 55
-end_page = 62
+start_page = 51
+end_page = 58
 
 perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)

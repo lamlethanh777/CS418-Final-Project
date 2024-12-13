@@ -205,14 +205,16 @@ def write_to_excel(nom_sentences ,qn_words_string, sino_similar_dict, qn_sino_di
 
 
 def processAlignment(qn_sino_dict, sino_similar_dict):
-    input_nom_folder = "Output_OCR_Nom"
+    input_nom_folder = "Output_OCR_Nom_Processed"
     output_qngu_folder = "Output_OCR_QN"
     output_file = "output.xlsx"
     nom_paragraph = load_json_files_from_folder(input_nom_folder)
     nom_sentences = []
     for paragraph in reversed(nom_paragraph):
-        if "ocr_text" in paragraph:
-            nom_sentences.extend(paragraph["ocr_text"])
+        if "result" in paragraph:
+            for item in paragraph["result"]:
+                if "transcription" in item:
+                    nom_sentences.append(item["transcription"])
 
     qngu_sentences = load_json_files_from_folder(output_qngu_folder)
     qn_words_string = []
@@ -233,4 +235,5 @@ if __name__ == "__main__":
 
     qn_sino_dict = load_quoc_ngu_sino_nom_dic(qn_sino_filename)
     sino_similar_dict = load_sino_nom_similar_dic(sino_similar_filename)
+    # print( get_cost('秩', 'ni', sino_similar_dict, qn_sino_dict))
     processAlignment(qn_sino_dict, sino_similar_dict)

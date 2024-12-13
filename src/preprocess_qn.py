@@ -2,6 +2,75 @@ import pandas as pd
 import re
 
 
+# New tone mapping dictionary that groups similar characters together
+tone_mapping = {
+    "a": ["a", "á", "à", "ả", "ã", "ạ"],
+    "â": ["â", "ấ", "ầ", "ẩ", "ẫ", "ậ"],
+    "ă": ["ă", "ắ", "ằ", "ẳ", "ẵ", "ặ"],
+    "e": ["e", "é", "è", "ẻ", "ẽ", "ẹ"],
+    "ê": ["ê", "ế", "ề", "ể", "ễ", "ệ"],
+    "i": ["i", "í", "ì", "ỉ", "ĩ", "ị"],
+    "o": ["o", "ó", "ò", "ỏ", "õ", "ọ"],
+    "ô": ["ô", "ố", "ồ", "ổ", "ỗ", "ộ"],
+    "ơ": ["ơ", "ớ", "ờ", "ở", "ỡ", "ợ"],
+    "u": ["u", "ú", "ù", "ủ", "ũ", "ụ"],
+    "ư": ["ư", "ứ", "ừ", "ử", "ữ", "ự"],
+    "y": ["y", "ý", "ỳ", "ỷ", "ỹ", "ỵ"],
+}
+
+# Function to detect and standardize Vietnamese tone marks
+def standardize_vietnamese(word):
+    if not isinstance(word, str):
+        return word  # Return the word as is if it's not a string
+    tone_number = ""
+    base_word = ""
+    for char in word:
+        found = False
+        for base_char, variations in tone_mapping.items():
+            if char in variations:
+                if variations.index(char) != 0:
+                    tone_number = str(variations.index(char))
+                base_word += base_char
+                found = True
+                break
+        if not found:
+            base_word += char
+    # If there's a tone number, append it to the base word
+    return base_word + tone_number if tone_number else base_word
+
+def convert_tone_number(word):
+    if not isinstance(word, str):
+        return word
+
+    tone_number = ""
+    base_word = ""
+
+    if word[-1].isdigit():
+        tone_number = int(word[-1])
+        base_word = word[:-1]
+    else:
+        base_word = word
+
+    if not tone_number:
+        return word
+
+    vowels_in_word = [char for char in base_word if char in tone_mapping]
+
+    if len(vowels_in_word) > 1:
+        for base_char, variations in tone_mapping.items():
+            if base_char in base_word and base_char not in ["i", "y"]:
+                base_word = base_word.replace(
+                    base_char, variations[tone_number])
+                break
+    else:
+        for base_char, variations in tone_mapping.items():
+            if base_char in base_word:
+                base_word = base_word.replace(
+                    base_char, variations[tone_number])
+                break
+        
+    return base_word
+
 # Hàm đọc từ điển từ file Excel
 def load_dictionary(file_path):
     df = pd.read_excel(file_path)
@@ -46,7 +115,7 @@ def processWords(tokenized_words, dictionary):
         clean_word = re.sub(r'[^\w\s]', '', word).lower()
         clean_word = standardize_vietnamese(clean_word)
         if clean_word in dictionary:  # Nếu từ đã được làm sạch có trong từ điển, giữ nguyên
-            output_words.append(word)
+            output_words.append(clean_word)
         else:  # Nếu không có, tách từ
             split_result = split_word_recursive(word, dictionary)
             output_words.extend(split_result)
@@ -56,7 +125,7 @@ def processWords(tokenized_words, dictionary):
 # Hàm chính
 def processText(input_text):
     # Load từ điển
-    dictionary = load_dictionary("QuocNgu_SinoNom_Dic.xlsx")
+    dictionary = load_dictionary("Standardized_QuocNgu_SinoNom_Dic.xlsx")
     
     # Split từ theo dấu cách
     words = input_text.split(' ')
@@ -67,3 +136,16 @@ def processText(input_text):
     # Thay dấu gạch nối '-' thành dấu cách ' ' khi đã xử lý xong
     output_text = ' '.join(output_words).replace('-', ' ')
     return output_text
+
+
+
+# # Load the Excel file
+# df = pd.read_excel("./QuocNgu_SinoNom_Dic.xlsx")
+
+# # Apply the standardize_vietnamese function to the 'QuocNgu' column
+# df["QuocNgu"] = df["QuocNgu"].apply(standardize_vietnamese)
+
+# # Save the result to the same Excel file
+# df.to_excel("./QuocNgu_SinoNom_Dic_Standardize.xlsx", index=False)
+
+# print("Standardized file saved to 'QuocNgu_SinoNom_Dic_Standardize.xlsx'")
