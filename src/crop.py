@@ -54,14 +54,14 @@ target_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-002"
 output_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-002-cropped"
 
 # Phạm vi trang cần xử lý
-start_page = 18
-end_page = 18
+start_page = 5
+end_page = 5
 
 # Tỷ lệ cắt (trái, trên, phải, dưới)
-scale_left = 0.5
-scale_top = 0.09
-scale_right = 0.046
-scale_bottom = 0.0521
+scale_left = 0.54
+scale_top = 0.13
+scale_right = 0.03
+scale_bottom = 0.0263
 
 # Gọi hàm xử lý
 process_images(target_dir, output_dir, start_page, end_page, scale_left, scale_top, scale_right, scale_bottom)

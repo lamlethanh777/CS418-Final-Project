@@ -18,16 +18,16 @@
         ]
     },
     "Sach-Nom-Cong-Giao-1995-002": {
-        "qn": [
+        "qn": [     // left = 0.069 right = 0.03 top = 0.1053 bottom = 0.0263
             [
-                5,          // left = 0.069 right = 0.03 top = 0.1053 bottom = 0.0263
+                5,    // trang 5 cắt 0.54 left, cắt top = 0.13
                 17
             ]
         ],
-        "nom": [            // left = 0.043 right = 0.046 top = 0.078 bottom = 0.0521
+        "nom": [ // left = 0.043 right = 0.046 top = 0.078 bottom = 0.0521
             [
-                62,         // trang 62 cắt 0.5 bên phải , cắt 0.09 top
-                18          // trang 18 cắt 0.5 bên trái , cắt 0.09 top
+                62, // trang 62 cắt 0.5 bên phải , cắt 0.09 top
+                18  // trang 18 cắt 0.5 bên trái , cắt 0.09 top
             ]
         ]
     },

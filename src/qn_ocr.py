@@ -4,7 +4,7 @@ from google.cloud import vision
 from PIL import Image
 
 # Đường dẫn đến thư mục chứa ảnh
-images_folder = "./../extracted_imgs/Sach-Nom-Cong-Giao-1995-005"
+images_folder = "../extracted_imgs/Sach-Nom-Cong-Giao-1995-002-cropped"
 
 # Đường dẫn đến tệp Google Cloud Vision API
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'nth-wording-440008-v3-5799f3182196.json'
