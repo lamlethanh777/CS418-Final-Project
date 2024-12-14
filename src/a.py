@@ -3,7 +3,7 @@ import os
 
 
 def main():
-    EXTRACTED_OCR_DIR = r"Output_OCR_Nom_Processed"
+    EXTRACTED_OCR_DIR = r"Output_OCR_Nom_Sach_001"
     EXTRACTED_IMAGES_DIR = r"../extracted_imgs"
     nom_ocr_results = load_ocr_results_from_json_dir(EXTRACTED_OCR_DIR)
 
@@ -27,8 +27,8 @@ def main():
                 },
                 ignore_index=True,
             )
-        if count == 5:
-            break
+        # if count == 5:
+        #     break
 
     output_dir = "test/"
     output_path = os.path.join(output_dir, "result.xlsx")

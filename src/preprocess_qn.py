@@ -125,11 +125,10 @@ def processWords(tokenized_words, dictionary):
 # Hàm chính
 def processText(input_text):
     # Load từ điển
-    dictionary = load_dictionary("Standardized_QuocNgu_SinoNom_Dic.xlsx")
-    
+    dictionary = load_dictionary("QuocNgu_SinoNom_Dic.xlsx")
     # Split từ theo dấu cách
     words = input_text.split(' ')
-    
+
     # Xử lý các từ
     output_words = processWords(words, dictionary)
 

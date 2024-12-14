@@ -74,7 +74,7 @@ def process_images(images_folder, start_page, end_page, output_folder):
 # Nhập trang bắt đầu và trang kết thúc
 start_page = int(input("Nhập trang bắt đầu: "))
 end_page = int(input("Nhập trang kết thúc: "))
-output_folder = "Output_OCR_QN"
+output_folder = "Output_OCR_QN_Sach_002"
 
 # Thực hiện xử lý
 process_images(images_folder, start_page, end_page, output_folder)

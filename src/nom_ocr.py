@@ -235,15 +235,15 @@ def load_nom_ocr_results_from_extracted_dir(extracted_dir):
 
 
 
-# Ví dụ sử dụng:
-# Tên thư mục chứa ảnh
-imgs_dir = "../extracted_imgs"
-# Tên thư mục lưu kết quả
-output_dir = "Output_OCR_Nom_Sach_002"
-# Tên PDF
-pdf_name = "Sach-Nom-Cong-Giao-1995-002-cropped"
-# Phạm vi trang
-start_page = 51
-end_page = 58
+# # Ví dụ sử dụng:
+# # Tên thư mục chứa ảnh
+# imgs_dir = "../extracted_imgs"
+# # Tên thư mục lưu kết quả
+# output_dir = "Output_OCR_Nom_Sach_001"
+# # Tên PDF
+# pdf_name = "Sach-Nom-Cong-Giao-1995-001"
+# # Phạm vi trang
+# start_page = 440
+# end_page = 453
 
-perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)
+# perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)

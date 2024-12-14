@@ -1,3 +1,4 @@
+import json
 from PIL import Image
 import os
 
@@ -22,7 +23,7 @@ def crop(img_path, output_dir, scale_left, scale_top, scale_right, scale_bottom)
     img_cropped = img.crop((left, top, right, bottom))
     img_cropped.save(os.path.join(output_dir, os.path.basename(img_path)))
 
-def process_images(target_dir, output_dir, start_page, end_page, scale_left, scale_top, scale_right, scale_bottom):
+def process_images(target_dir, output_dir, start_page, end_page, scale_left_even, scale_top_even, scale_right_even, scale_bottom_even, scale_left_odd, scale_top_odd, scale_right_odd, scale_bottom_odd):
     """
     Xử lý và cắt các hình ảnh trong phạm vi trang chỉ định.
     
@@ -44,25 +45,36 @@ def process_images(target_dir, output_dir, start_page, end_page, scale_left, sca
         img_path = os.path.join(target_dir, img_name)
 
         if os.path.exists(img_path):
-            crop(img_path, output_dir, scale_left, scale_top, scale_right, scale_bottom)
+            if page_num % 2 == 0:
+                crop(img_path, output_dir, scale_left_even, scale_top_even, scale_right_even, scale_bottom_even)
+            else:
+                crop(img_path, output_dir, scale_left_odd, scale_top_odd, scale_right_odd, scale_bottom_odd)
             print(f"Processed {img_name}")
         else:
             print(f"Warning: {img_name} not found in {target_dir}")
 
 # Thư mục chứa hình ảnh gốc và đầu ra
-target_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-002"
-output_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-002-cropped"
+target_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-004"
+output_dir = r"../extracted_imgs/Sach-Nom-Cong-Giao-1995-004-cropped"
 
 # Phạm vi trang cần xử lý
-start_page = 5
-end_page = 5
+start_page = 1
+end_page = 352
 
 # Tỷ lệ cắt (trái, trên, phải, dưới)
-scale_left = 0.54
-scale_top = 0.13
-scale_right = 0.03
-scale_bottom = 0.0263
+scale_left_even = 0
+scale_top_even = 0
+scale_right_even = 0.08
+scale_bottom_even = 0
+
+scale_left_odd = 0.08
+scale_top_odd = 0
+scale_right_odd = 0
+scale_bottom_odd = 0
+
+
+
+
 
 # Gọi hàm xử lý
-process_images(target_dir, output_dir, start_page, end_page, scale_left, scale_top, scale_right, scale_bottom)
-
+process_images(target_dir, output_dir, start_page, end_page, scale_left_even, scale_top_even, scale_right_even, scale_bottom_even, scale_left_odd, scale_top_odd, scale_right_odd, scale_bottom_odd)

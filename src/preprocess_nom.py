@@ -25,7 +25,7 @@ def get_box_area(box):
     return width * height
 
 # Function to arrange boxes
-def sort_boxes(boxes, epsilon=5):
+def sort_boxes(boxes, epsilon=10):
     def compare_with_tolerance(box1, box2):
         x1, y1 = get_box_coordinates(box1)
         x2, y2 = get_box_coordinates(box2)
@@ -47,10 +47,10 @@ def filter_boxes_by_area(boxes, threshold_ratio=0.05):
     return filtered_boxes
 
 # Load dữ liệu OCR
-ocr_results = load_ocr_results_from_json_dir("Output_OCR_Nom")
+ocr_results = load_ocr_results_from_json_dir("Output_OCR_Nom_Sach_002")
 
 # Tạo thư mục đầu ra
-output_dir = "Output_OCR_Nom_Processed"
+output_dir = "Output_OCR_Nom_Sach_002_Processed"
 create_output_dir(output_dir)
 
 # Xử lý và lưu từng trang
