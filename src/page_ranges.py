@@ -2,7 +2,7 @@ import json
 
 mapping = {}
 
-# 001
+# region 001
 mapping["Sach-Nom-Cong-Giao-1995-001"] = {
     "page_pairs": [
         (4, 453),
@@ -13,7 +13,7 @@ for i in range(8, 225):
     mapping["Sach-Nom-Cong-Giao-1995-001"]["page_pairs"].append((i, 452 + 8 - i))
 
 
-# 002
+# region 002
 mapping["Sach-Nom-Cong-Giao-1995-002"] = {
     "page_pairs": [
         (9, (125, 124)),
@@ -46,38 +46,47 @@ mapping["Sach-Nom-Cong-Giao-1995-002"] = {
 }
 
 
-# 004
+# region 004 done
 mapping["Sach-Nom-Cong-Giao-1995-004"] = {
     "page_pairs": [
-        (2, 189),
+        (4, 189),
         (23, 187),
     ]
 }
+# 0.08 for 2 sides
 
-for i in range(24, 99):
-    mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((i, 186 + 24 - i))
+for i in range(24, 64):
+    mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((i, 187 + 23 - i))
 
-mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((291, 345))
+for i in range(64, 81):
+    mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((i, 145 + 64 - i))
 
-for i in range(291, 323):
-    mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((i, 344 + 291 - i))
+for i in range(81, 99):
+    mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((i, 127 + 81 - i))
 
-# 005
+# mapping["Sach-Nom-Cong-Giao-1995-004"]["page_pairs"].append((range(289, 320), range(343, 322, -1)))
 
-# 012
 
-# 049
+
+# region 005
+
+# region 012
+
+# region 049 done
 mapping["Sach-Nom-Cong-Giao-1995-049"] = {
     "page_pairs": [
-        (22, 595),
+        (22, 591),
+        # (55,556),
     ]
 }
 
-for i in range(23, 302):
-    mapping["Sach-Nom-Cong-Giao-1995-049"]["page_pairs"].append((i, 594 + 23 - i))
+for i in range(23, 55):
+    mapping["Sach-Nom-Cong-Giao-1995-049"]["page_pairs"].append((i, 591+22 - i))
+
+for i in range(55, 300):
+    mapping["Sach-Nom-Cong-Giao-1995-049"]["page_pairs"].append((i, 55+556 - i))
 
 
 # Save to JSON
 with open("../extracted_imgs/page_ranges.json", "w", encoding="utf-8") as json_file:
     json.dump(mapping, json_file, ensure_ascii=False, indent=4)
-

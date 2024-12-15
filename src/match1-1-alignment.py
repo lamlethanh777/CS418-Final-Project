@@ -66,7 +66,7 @@ def create_ocr_nom_string(paragraph):
 def get_cost(ocr_char, qn_word, sino_similar_dict, qn_sino_dict):
     qn_word = re.sub(r'[^\w\s]', '', qn_word).lower()
     qn_word = standardize_vietnamese(qn_word)
-    print(qn_word)
+
     S1 = sino_similar_dict.get(ocr_char, {ocr_char})
     S2 = qn_sino_dict.get(qn_word, set())
     intersection = [char for char in S1 if char in S2]
@@ -186,7 +186,7 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
         qn_words_string = load_single_qngu_page(f"{input_qngu_folder}/page_{page_x}.json")
 
         aligned_nomLinesString, aligned_qnLinesString = Levenshtein_Align_Line(nom_words_string, qn_words_string, sino_similar_dict, qn_sino_dict)
-            
+
         # Xử lý ghi nội dung vào hai cột SinoNom OCR và Chữ Quốc Ngữ
         nom_format_pairs = []
         qn_format_pairs = []
@@ -194,11 +194,14 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
         index_ocr_line = 0
         index_ocr_word = 0
 
-        length_ocr_line = len(nom_sentences[index_ocr_line])
+        # length_ocr_line = len(nom_sentences[index_ocr_line])
 
+        count_char = 0
+        length_char =len(aligned_nomLinesString)
 
         for (nom_char, nom_status), (qn_char, qn_status) in zip(aligned_nomLinesString, aligned_qnLinesString):
-
+            count_char += 1
+            length_ocr_line = len(nom_sentences[index_ocr_line])
             # Xử lý định dạng màu cho SinoNom
             if (nom_char != '_'): index_ocr_word += 1
             if nom_status == "red":
@@ -228,6 +231,53 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
                 formatted_id = f"{book_name}.page{page_x}_page{page_y}.{index_ocr_line:03}" 
                 worksheet.write(row_index_global, 0, formatted_id, black_text_format)
                 worksheet.write(row_index_global, 1, json.dumps(boxes[index_ocr_line]), black_text_format)
+
+                if (index_ocr_line) >= len(nom_sentences)-1:
+                    count_char += 1
+                    while (count_char < length_char):
+                        nom_status = aligned_nomLinesString[count_char][1]
+                        qn_status = aligned_qnLinesString[count_char][1]
+                        nom_char = aligned_nomLinesString[count_char][0]
+                        qn_char = aligned_qnLinesString[count_char][0]
+
+                        if nom_status == "red":
+                            nom_format_pairs.append(red_text_format)
+                            nom_format_pairs.append(nom_char)
+                        else:
+                            nom_format_pairs.append(black_text_format)
+                            nom_format_pairs.append(nom_char)
+                    
+                        # Xử lý định dạng màu cho Chữ Quốc Ngữ
+                        if qn_status == "red":
+                            qn_format_pairs.append(red_text_format)
+                            qn_format_pairs.append(qn_char + ' ')
+                        else:
+                            qn_format_pairs.append(black_text_format)
+                            qn_format_pairs.append(qn_char + ' ')
+                        
+                        if (nom_char == '_' or qn_char == '_'):
+                            empty_word += 1
+                        elif (nom_status == "red" and nom_status == "red"):
+                            red_word += 1
+                        total_word += 1
+                        count_char += 1
+                    
+                    if (length_ocr_line == 1):
+                        worksheet.write(row_index_global, 2, nom_format_pairs[1], nom_format_pairs[0])
+                        worksheet.write(row_index_global, 3, qn_format_pairs[1], qn_format_pairs[0])
+                    else:
+                        worksheet.write_rich_string(row_index_global, 2, *nom_format_pairs)
+                        worksheet.write_rich_string(row_index_global, 3, *qn_format_pairs)
+                    
+                    index_ocr_line = 0
+                    index_ocr_word = 0
+                    nom_format_pairs = []
+                    qn_format_pairs = []
+
+                    row_index_global += 1
+                    break
+
+                
                 if (length_ocr_line == 1):
                     worksheet.write(row_index_global, 2, nom_format_pairs[1], nom_format_pairs[0])
                     worksheet.write(row_index_global, 3, qn_format_pairs[1], qn_format_pairs[0])
@@ -236,13 +286,12 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
                     worksheet.write_rich_string(row_index_global, 3, *qn_format_pairs)
                 index_ocr_line += 1
                 index_ocr_word = 0
-
-                row_index_global += 1
-                if (index_ocr_line) >= len(nom_sentences): break
-                length_ocr_line = len(nom_sentences[index_ocr_line])
-
                 nom_format_pairs = []
                 qn_format_pairs = []
+
+                row_index_global += 1
+            
+
     
     print(f"Total word: {total_word}")
     print(f"Red word: {red_word}")
@@ -252,10 +301,9 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
 
 
 def processAlignment(book_name, qn_sino_dict, sino_similar_dict):
-    input_nom_folder = "Output_OCR_Nom_Sach_001_Processed"
-    input_qngu_folder = "Output_OCR_QN_Sach_001_Processed"
+    input_nom_folder = "Output_OCR_Nom_Sach_049_Processed"
+    input_qngu_folder = "Output_OCR_QN_Sach_049_Processed"
     page_ranges_file = "../extracted_imgs/page_ranges.json"
-    output_file = "output.xlsx"
     output_file = f"output_{book_name}.xlsx"
 
     # Load page ranges from JSON file
@@ -280,4 +328,4 @@ if __name__ == "__main__":
     qn_sino_dict = load_quoc_ngu_sino_nom_dic(qn_sino_filename)
     sino_similar_dict = load_sino_nom_similar_dic(sino_similar_filename)
     # print( get_cost('秩', 'ni', sino_similar_dict, qn_sino_dict))
-    processAlignment('Sach-Nom-Cong-Giao-1995-001', qn_sino_dict, sino_similar_dict)
+    processAlignment('Sach-Nom-Cong-Giao-1995-049', qn_sino_dict, sino_similar_dict)

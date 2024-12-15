@@ -47,10 +47,10 @@ def filter_boxes_by_area(boxes, threshold_ratio=0.05):
     return filtered_boxes
 
 # Load dữ liệu OCR
-ocr_results = load_ocr_results_from_json_dir("Output_OCR_Nom_Sach_002")
+ocr_results = load_ocr_results_from_json_dir("Output_OCR_Nom_Sach_049")
 
 # Tạo thư mục đầu ra
-output_dir = "Output_OCR_Nom_Sach_002_Processed"
+output_dir = "Output_OCR_Nom_Sach_049_Processed"
 create_output_dir(output_dir)
 
 # Xử lý và lưu từng trang

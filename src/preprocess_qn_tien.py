@@ -108,16 +108,23 @@ def clean_vietnamese_text(text):
     """
     # remove 24a
     text = re.sub(r"\(*\s*(\d+[a-zA-Z])\s*\)*", " ", text)
-    # remove (a), (2)
-    text = re.sub(r"\(\s*([0-9a-zA-Z]+)\s*\)", " ", text)
+    # Remove (102a) (la) (2b) etc.
+    text = re.sub(r'\(\s*[a-zA-Z0-9l]+\s*\)', '', text)
+    # # remove (a), (2)
+    # text = re.sub(r"\(\s*([0-9a-zA-Z]+)\s*\)", " ", text)
     # remove - 24 -
     text = re.sub(r"-\s*\d+\s*-", "", text)
     # remove 8.
     text = re.sub(r"\d+\.", "", text)
     # remove roman heading only not in the middle of a sentence
     text = re.sub(r"\b[IVXLCDM]+\b", "", text)
-    # remove standalone consonants
-    text = re.sub(r"\s+[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]\s+", "", text)
+    # # remove standalone consonants including 'i'
+    # text = re.sub(r"\s+[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZiI]\s+", "", text)
+    # Remove standalone consonants and vowels (e.g., 'i', 'a') surrounded by spaces or punctuation
+    text = re.sub(r"\b[iIaA]\b", "", text)
+
+    # Remove standalone consonants (including 'i') that are surrounded by punctuation
+    text = re.sub(r"(?<!\w)[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZiI](?!\w)", "", text)
     # remove multiple repeated punctuations
     text = re.sub(r'([^\w\s])\1+', r'\1', text)
     # remove multiple spaces after/before open parentheses, brackets, or braces
@@ -126,6 +133,10 @@ def clean_vietnamese_text(text):
     text = re.sub(r'\s+([)\]}!?,.:;])\s*', r'\1 ', text)
     # remove brackets that are empty or contain only punctuations and spaces
     text = re.sub(r'\([' + re.escape(string.punctuation) + r'\s]*\)', '', text)
+    # remove lines that start with a pattern like (1), (2), (3b), etc.
+    text = re.sub(r'^\(\s*[a-zA-Z0-9l]+\s*\).*\n?', '', text, flags=re.MULTILINE)
+    # remove lines that contain standalone text within parentheses
+    text = re.sub(r'^\s*".*"\s*\(.*\)\s*$', '', text, flags=re.MULTILINE)
     # remove space before punctuation
     text = re.sub(r'\s+([!?,.:;])', r'\1 ', text)
     # remove standalone punctuations like "-", "'", etc. or if they are at the start or the end of a word
@@ -167,7 +178,7 @@ def process_qn_files(input_folder, output_folder):
             ocr_text = data.get("ocr_text", [])
             # check in the last 5 lines if they start by (1) or (2a)
             if len(ocr_text) > 5:
-                for i in range(1, 6):
+                for i in range(1, 5):
                     if re.match(r"^\(\s*([\da-zA-Z]*)\s*\)", ocr_text[-i]):
                         ocr_text = ocr_text[:-i]
             cleaned_ocr_text = []
@@ -193,6 +204,6 @@ def process_qn_files(input_folder, output_folder):
 
 
 # Example usage
-input_folder = "Output_OCR_QN_Sach_002"  # Replace with your input folder path
-output_folder = "Output_OCR_QN_Sach_002_Processed"  # Replace with your output folder path
+input_folder = "Output_OCR_QN_Sach_049"  # Replace with your input folder path
+output_folder = "Output_OCR_QN_Sach_049_Processed"  # Replace with your output folder path
 process_qn_files(input_folder, output_folder)
