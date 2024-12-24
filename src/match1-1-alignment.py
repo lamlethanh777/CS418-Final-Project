@@ -161,12 +161,13 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
     blue_text_format = workbook.add_format({'font_name': 'Nom Na Tong', 'color': '#0000FF'})
 
     # Set column widths
-    worksheet.set_column('A:A', 20)
-    worksheet.set_column('B:B', 50)
-    worksheet.set_column('C:C', 30)
-    worksheet.set_column('D:D', 40)
+    worksheet.set_column('A:A', 50)
+    worksheet.set_column('B:B', 40)
+    worksheet.set_column('C:C', 40)
+    worksheet.set_column('D:D', 80)
+    worksheet.set_column('E:E', 120)
 
-    headers = ["ID", "Image Box", "SinoNom OCR", "Chữ Quốc Ngữ"]
+    headers = ["Image_name", "ID", "Image Box", "SinoNom OCR", "Chữ Quốc Ngữ"]
     row_index_global = 1
     
     for col, header in enumerate(headers):
@@ -228,9 +229,11 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
             
             if (index_ocr_word == length_ocr_line):
                 qn_format_pairs[-1] = qn_format_pairs[-1].strip()
-                formatted_id = f"{book_name}.page{page_x}_page{page_y}.{index_ocr_line:03}" 
-                worksheet.write(row_index_global, 0, formatted_id, black_text_format)
-                worksheet.write(row_index_global, 1, json.dumps(boxes[index_ocr_line]), black_text_format)
+                formatted_image_name = f"{book_name}_page{page_y:03}.png"
+                formatted_id = f"{book_name}.{page_y:03}.{index_ocr_line+1:03}"
+                worksheet.write(row_index_global, 0, formatted_image_name, black_text_format)
+                worksheet.write(row_index_global, 1, formatted_id, black_text_format)
+                worksheet.write(row_index_global, 2, json.dumps(boxes[index_ocr_line]), black_text_format)
 
                 if (index_ocr_line) >= len(nom_sentences)-1:
                     count_char += 1
@@ -263,11 +266,11 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
                         count_char += 1
                     
                     if (length_ocr_line == 1):
-                        worksheet.write(row_index_global, 2, nom_format_pairs[1], nom_format_pairs[0])
-                        worksheet.write(row_index_global, 3, qn_format_pairs[1], qn_format_pairs[0])
+                        worksheet.write(row_index_global, 3, nom_format_pairs[1], nom_format_pairs[0])
+                        worksheet.write(row_index_global, 4, qn_format_pairs[1], qn_format_pairs[0])
                     else:
-                        worksheet.write_rich_string(row_index_global, 2, *nom_format_pairs)
-                        worksheet.write_rich_string(row_index_global, 3, *qn_format_pairs)
+                        worksheet.write_rich_string(row_index_global, 3, *nom_format_pairs)
+                        worksheet.write_rich_string(row_index_global, 4, *qn_format_pairs)
                     
                     index_ocr_line = 0
                     index_ocr_word = 0
@@ -279,11 +282,11 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
 
                 
                 if (length_ocr_line == 1):
-                    worksheet.write(row_index_global, 2, nom_format_pairs[1], nom_format_pairs[0])
-                    worksheet.write(row_index_global, 3, qn_format_pairs[1], qn_format_pairs[0])
+                    worksheet.write(row_index_global, 3, nom_format_pairs[1], nom_format_pairs[0])
+                    worksheet.write(row_index_global, 4, qn_format_pairs[1], qn_format_pairs[0])
                 else:
-                    worksheet.write_rich_string(row_index_global, 2, *nom_format_pairs)
-                    worksheet.write_rich_string(row_index_global, 3, *qn_format_pairs)
+                    worksheet.write_rich_string(row_index_global, 3, *nom_format_pairs)
+                    worksheet.write_rich_string(row_index_global, 4, *qn_format_pairs)
                 index_ocr_line += 1
                 index_ocr_word = 0
                 nom_format_pairs = []
@@ -300,9 +303,7 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
     workbook.close()
 
 
-def processAlignment(book_name, qn_sino_dict, sino_similar_dict):
-    input_nom_folder = "Output_OCR_Nom_Sach_049_Processed"
-    input_qngu_folder = "Output_OCR_QN_Sach_049_Processed"
+def processAlignment(book_name, input_nom_folder, input_qngu_folder, qn_sino_dict, sino_similar_dict):
     page_ranges_file = "../extracted_imgs/page_ranges.json"
     output_file = f"output_{book_name}.xlsx"
 
@@ -322,10 +323,15 @@ def processAlignment(book_name, qn_sino_dict, sino_similar_dict):
 
 
 if __name__ == "__main__":
+    # Define input and output folders and book name to process
+    input_nom_folder = "Output_OCR_Nom_Sach_049_Processed"
+    input_qngu_folder = "Output_OCR_QN_Sach_049_Processed"
+    book_name = "Prj_55g_Nam_APCS2_Sách Nôm công giáo 1995 - 049"
+
     sino_similar_filename = "SinoNom_similar_Dic.xlsx"
     qn_sino_filename = "Standardized_QuocNgu_SinoNom_Dic.xlsx"
 
     qn_sino_dict = load_quoc_ngu_sino_nom_dic(qn_sino_filename)
     sino_similar_dict = load_sino_nom_similar_dic(sino_similar_filename)
-    # print( get_cost('秩', 'ni', sino_similar_dict, qn_sino_dict))
-    processAlignment('Sach-Nom-Cong-Giao-1995-049', qn_sino_dict, sino_similar_dict)
+
+    processAlignment(book_name, input_nom_folder, input_qngu_folder, qn_sino_dict, sino_similar_dict)

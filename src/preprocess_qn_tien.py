@@ -191,8 +191,7 @@ def process_qn_files(input_folder, output_folder):
             output_data = {
                 "page": data.get("page"),
                 "ocr_text": cleaned_ocr_text
-            }
-            
+            }            
 
             # Write the cleaned data to the output folder
             output_filename = f"page_{output_data['page']}.json"

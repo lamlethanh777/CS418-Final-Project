@@ -76,7 +76,6 @@ for i in range(81, 99):
 mapping["Sach-Nom-Cong-Giao-1995-049"] = {
     "page_pairs": [
         (22, 591),
-        # (55,556),
     ]
 }
 
