@@ -1,1 +1,6 @@
 test/page_452.png	1
+test/page_360.png	1
+test/page_358.png	1
+test/page_359.png	1
+test/page_357.png	1
+test/page_356.png	1

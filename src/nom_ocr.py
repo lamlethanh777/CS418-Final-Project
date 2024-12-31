@@ -213,6 +213,7 @@ def perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir):
 
 
 def load_ocr_results_from_json_dir(ocr_dir):
+    print("this is ocr_dir", ocr_dir)
     ocr_results = {}
     for file_name in os.listdir(ocr_dir):
         if file_name.endswith(".json"):
@@ -237,13 +238,13 @@ def load_nom_ocr_results_from_extracted_dir(extracted_dir):
 
 # # Ví dụ sử dụng:
 # # Tên thư mục chứa ảnh
-# imgs_dir = "../extracted_imgs"
-# # Tên thư mục lưu kết quả
-# output_dir = "Output_OCR_Nom_Sach_001"
-# # Tên PDF
-# pdf_name = "Sach-Nom-Cong-Giao-1995-001"
-# # Phạm vi trang
-# start_page = 440
-# end_page = 453
+imgs_dir = "../extracted_imgs"
+# Tên thư mục lưu kết quả
+output_dir = "Output_OCR_Nom_Sach_001_Rotated"
+# Tên PDF
+pdf_name = "Sach-Nom-Cong-Giao-1995-001-rotated"
+# Phạm vi trang
+start_page = 417
+end_page = 417
 
-# perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)
+perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)
