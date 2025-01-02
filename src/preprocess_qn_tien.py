@@ -203,6 +203,6 @@ def process_qn_files(input_folder, output_folder):
 
 
 # Example usage
-input_folder = "Output_OCR_QN_Sach_049"  # Replace with your input folder path
-output_folder = "Output_OCR_QN_Sach_049_Processed"  # Replace with your output folder path
+input_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049"  # Replace with your input folder path
+output_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049_Processed"  # Replace with your output folder path
 process_qn_files(input_folder, output_folder)

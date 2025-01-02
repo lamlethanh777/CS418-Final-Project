@@ -241,9 +241,9 @@ def load_nom_ocr_results_from_extracted_dir(extracted_dir):
 # # Tên thư mục lưu kết quả
 # output_dir = "Output_OCR_Nom_Sach_004"
 # # Tên PDF
-# pdf_name = "Sach-Nom-Cong-Giao-1995-004-cropped"
+# pdf_name = "Sach-Nom-Cong-Giao-1995-004"
 # # Phạm vi trang
-# start_page = 110
-# end_page = 111
+# start_page = 189
+# end_page = 189
 
 # perform_nom_ocr(pdf_name, start_page, end_page, imgs_dir, output_dir)

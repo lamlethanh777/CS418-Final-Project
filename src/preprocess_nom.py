@@ -46,11 +46,45 @@ def filter_boxes_by_area(boxes, threshold_ratio=0.05):
     filtered_boxes = [box for box in boxes if get_box_area(box) >= min_area_threshold]
     return filtered_boxes
 
+# Function to filter boxes by Y-coordinate deviation
+def filter_boxes_by_y_deviation(boxes, y_threshold_ratio=0.15, x_tolerance = 20):
+    # Calculate the average Y-coordinates of the middle third of boxes
+    sorted_boxes = sorted(boxes, key=lambda box: (box["points"][0][1] + box["points"][1][1]) / 2)
+    num_boxes = len(sorted_boxes)
+    if num_boxes < 4:
+        return boxes
+    middle_third = sorted_boxes[num_boxes // 3 : 2 * num_boxes // 3]
+    
+    top_y_coordinates = [(box["points"][0][1] + box["points"][1][1]) / 2 for box in middle_third]
+    average_y = np.mean(top_y_coordinates)
+
+    # Calculate the threshold for filtering
+    y_threshold = average_y * y_threshold_ratio
+
+    # Tìm tọa độ X nhỏ nhất và lớn nhất
+    avg_x_coordinates = [(box["points"][0][0] + box["points"][1][0] + box["points"][2][0] + box["points"][3][0]) / 4 for box in boxes]
+    min_x = min(avg_x_coordinates)
+    max_x = max(avg_x_coordinates)
+
+    # Lọc box
+    filtered_boxes = []
+    for box in boxes:
+        box_y = (box["points"][0][1] + box["points"][1][1]) / 2
+        x_average = (box["points"][0][0] + box["points"][1][0] + box["points"][2][0] + box["points"][3][0]) / 4
+
+        if abs(box_y - average_y) > y_threshold:
+            # Chỉ bỏ box nếu nó có tọa độ X average nhỏ nhất hoặc lớn nhất
+            if abs(x_average - min_x) < x_tolerance or abs(x_average - max_x) < x_tolerance:
+                continue
+        filtered_boxes.append(box)
+    
+    return filtered_boxes
+
 # Load dữ liệu OCR
-ocr_results = load_ocr_results_from_json_dir("Output_OCR_Nom_Sach_049")
+ocr_results = load_ocr_results_from_json_dir("../OCR_NOM/Sach-Nom-Cong-Giao-1995-049")
 
 # Tạo thư mục đầu ra
-output_dir = "Output_OCR_Nom_Sach_049_Processed"
+output_dir = "../OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed"
 create_output_dir(output_dir)
 
 # Xử lý và lưu từng trang
@@ -62,6 +96,9 @@ for page_num, boxes in ocr_results.items():
 
     # Lọc các box theo diện tích
     filtered_boxes = filter_boxes_by_area(sorted_boxes, threshold_ratio=0.1)
+
+    # Lọc các box theo tọa độ Y
+    filtered_boxes = filter_boxes_by_y_deviation(filtered_boxes, y_threshold_ratio=0.15)
 
     # Lưu kết quả vào tệp JSON
     output_file = os.path.join(output_dir, f"page_{page_num}.json")
