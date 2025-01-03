@@ -505,7 +505,7 @@ def processAlignment(
     book_name, input_nom_folder, input_qngu_folder, qn_sino_dict, sino_similar_dict
 ):
     page_ranges_file = "page_ranges.json"
-    output_file = f"output_Sach_012.xlsx"
+    output_file = f"output_Sach_012_after_processing.xlsx"
 
     # Load page ranges from JSON file
     with open(page_ranges_file, "r", encoding="utf-8") as f:
@@ -533,7 +533,7 @@ def processAlignment(
 if __name__ == "__main__":
     # Define input and output folders and book name to process
     input_nom_folder = "../OCR_NOM/Sach-Nom-Cong-Giao-1995-012_Processed"
-    input_qngu_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-012_Processed_Gemini"
+    input_qngu_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-012_Postprocessed_Gemini"
     book_name = "Sach-Nom-Cong-Giao-1995-012"
 
     sino_similar_filename = "SinoNom_similar_Dic.xlsx"

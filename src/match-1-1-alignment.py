@@ -6,7 +6,7 @@ import xlsxwriter
 import openpyxl
 import ast
 import json
-from preprocess_qn import standardize_vietnamese
+from standardize_qn import standardize_vietnamese
 
 
 def load_sino_nom_similar_dic(filename):
@@ -326,7 +326,7 @@ def processAlignment(book_name, input_nom_folder, input_qngu_folder, qn_sino_dic
 if __name__ == "__main__":
     # Define input and output folders and book name to process
     input_nom_folder = "../OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed"
-    input_qngu_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049_Processed_Gemini"
+    input_qngu_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049_Postprocessed_Gemini"
     book_name = "Sach-Nom-Cong-Giao-1995-049"
 
     sino_similar_filename = "SinoNom_similar_Dic.xlsx"
