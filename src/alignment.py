@@ -277,8 +277,8 @@ def write_to_excel(input_nom_folder, input_qngu_folder, book_name, book_page_ran
         qn_index = 0
         
         for row_index in range(len(aligned_s1)):
-            img_name = f"{book_name}.page{page_x}.page{page_y}"
-            img_id = f"{book_name}.page{page_y}.{nom_index:03}"
+            img_name = f"{book_name}_page{page_y:03}.png"
+            img_id = f"{book_name}.{page_y:03}.{nom_index+1:03}"
             if (nom_index < len(nom_sentences)):
                 box_coordinate = json.dumps(boxes[nom_index])
             else:
@@ -366,7 +366,8 @@ def processAlignment(book_name, qn_sino_dict, sino_similar_dict):
     input_nom_folder    = "Output_OCR_Nom_Sach_001_Processed_Rotated"
     input_qngu_folder   = "Output_OCR_QN_Sach_001_Processed_Nam"
     page_ranges_file    = "page_ranges.json"
-    output_file         = f"output_{book_name}.xlsx"
+    # output_file         = f"output_{book_name}.xlsx"
+    output_file         = "output_cuon001_FINAL.xlsx"
 
     # Load page ranges from JSON file
     with open(page_ranges_file, "r", encoding="utf-8") as f:
@@ -389,4 +390,4 @@ if __name__ == "__main__":
 
     qn_sino_dict        = load_quoc_ngu_sino_nom_dic(qn_sino_filename)
     sino_similar_dict   = load_sino_nom_similar_dic(sino_similar_filename)
-    processAlignment('Sach-Nom-Cong-Giao-1995-001', qn_sino_dict, sino_similar_dict)
+    processAlignment('Prj_55g_Lam_APCS2_Sách Nôm công giáo 1995 - 001 - Van Thanh Ca Giuse', qn_sino_dict, sino_similar_dict)
