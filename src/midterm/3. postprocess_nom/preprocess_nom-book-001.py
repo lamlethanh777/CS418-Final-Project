@@ -23,7 +23,11 @@ def get_box_area(box):
     height = abs(points[3][1] - points[0][1])
     return width * height
 
+<<<<<<< HEAD:src/midterm/3. postprocess_nom/preprocess_nom-book-001.py
 
+=======
+# Function to arrange boxes
+>>>>>>> Cuon001:src/preprocess_nom.py
 def sort_boxes(boxes, epsilon = 7):
     def compare_with_tolerance(box1, box2):
         x1, y1 = get_box_coordinates(box1)
@@ -45,9 +49,17 @@ def filter_boxes_by_area(boxes, threshold_ratio=0.05):
     filtered_boxes = [box for box in boxes if get_box_area(box) >= min_area_threshold]
     return filtered_boxes
 
+<<<<<<< HEAD:src/midterm/3. postprocess_nom/preprocess_nom-book-001.py
 
 ocr_results = load_ocr_results_from_json_dir(r"D:\CS418-Final-Project\src\Output_OCR_Nom_Sach_001_Rotated")
 output_dir = "Output_OCR_Nom_Sach_001_Processed"
+=======
+# Load dữ liệu OCR
+ocr_results = load_ocr_results_from_json_dir(r"D:\CS418-Final-Project\src\Output_OCR_Nom_Sach_001_Rotated")
+print(len(ocr_results))
+# Tạo thư mục đầu ra
+output_dir = "Output_OCR_Nom_Sach_001_Processed_Rotated"
+>>>>>>> Cuon001:src/preprocess_nom.py
 create_output_dir(output_dir)
 
 

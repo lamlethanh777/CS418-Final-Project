@@ -4,7 +4,11 @@ from google.cloud import vision
 from PIL import Image
 
 # Đường dẫn đến thư mục chứa ảnh
+<<<<<<< HEAD:src/midterm/2. ocr/qn_ocr.py
 images_folder = "../extracted_imgs/Sach-Nom-Cong-Giao-1995-049"
+=======
+images_folder = "../extracted_imgs/Sach-Nom-Cong-Giao-1995-012"
+>>>>>>> Cuon001:src/qn_ocr.py
 
 # Đường dẫn đến tệp Google Cloud Vision API
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'nth-wording-440008-v3-5799f3182196.json'
@@ -74,7 +78,11 @@ def process_images(images_folder, start_page, end_page, output_folder):
 # Nhập trang bắt đầu và trang kết thúc
 start_page = int(input("Nhập trang bắt đầu: "))
 end_page = int(input("Nhập trang kết thúc: "))
+<<<<<<< HEAD:src/midterm/2. ocr/qn_ocr.py
 output_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049"
+=======
+output_folder = "Output_OCR_QN_Sach_012"
+>>>>>>> Cuon001:src/qn_ocr.py
 
 # Thực hiện xử lý
 process_images(images_folder, start_page, end_page, output_folder)

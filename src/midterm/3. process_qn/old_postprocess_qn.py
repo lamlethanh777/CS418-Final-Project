@@ -10,7 +10,12 @@ def load_dictionary(file_path):
     return dictionary
 
 
+<<<<<<< HEAD:src/midterm/3. process_qn/old_postprocess_qn.py
 def split_word_recursive(word, dictionary):
+=======
+# Hàm đệ quy để tách từ
+def split_word_recursive(word, dictionary, special_words = []):
+>>>>>>> Cuon001:src/preprocess_qn_tien.py
     result = []
     
     def backtrack(start, current_result):
@@ -21,12 +26,21 @@ def split_word_recursive(word, dictionary):
         for end in range(len(word), start, -1):
             candidate = word[start:end]
             normalized_candidate = re.sub(r'[^\w\s]', '', candidate).lower()
+<<<<<<< HEAD:src/midterm/3. process_qn/old_postprocess_qn.py
             if normalized_candidate in dictionary:
                 current_result.append(normalized_candidate)
                 backtrack(end, current_result)
                 current_result.pop()
+=======
+            if normalized_candidate in dictionary or candidate in special_words:
+                current_result.append(normalized_candidate)
+                backtrack(end, current_result)
+                current_result.pop()
+
+>>>>>>> Cuon001:src/preprocess_qn_tien.py
     backtrack(0, [])
     return result[0] if result else [word]
+
 
 def processWords(tokenized_words, dictionary):
     output_words = []
@@ -37,10 +51,17 @@ def processWords(tokenized_words, dictionary):
         
         clean_word = original_case.lower()
         
+<<<<<<< HEAD:src/midterm/3. process_qn/old_postprocess_qn.py
         if clean_word in dictionary:
             output_words.append(prefix + original_case + suffix)
         else:
             split_result = split_word_recursive(clean_word, dictionary)
+=======
+        if clean_word in dictionary:  # Nếu từ đã được làm sạch có trong từ điển
+            output_words.append(prefix + original_case + suffix)  # Giữ nguyên định dạng ban đầu
+        else:  # Nếu không có, tách từ
+            split_result = split_word_recursive(clean_word, dictionary, ['giu', 'amen'])
+>>>>>>> Cuon001:src/preprocess_qn_tien.py
             
             def apply_original_case(original, split_words):
                 formatted_words = []
@@ -131,7 +152,37 @@ def clean_vietnamese_text(text):
     # remove multiple consecutive spaces
     text = re.sub(r"\s+", " ", text)
     return text.strip()
- 
+
+
+def clean_sentences(ocr_text):
+    """
+    Cleans sentences from a list by removing those that start with patterns like '1)', '(1)', '(2)', etc.
+    
+    :param ocr_text: List of sentences (strings).
+    :return: Cleaned list of sentences.
+    """
+    # Pattern to match lines starting with "1)", "(1)", "(2)", "(3b)", etc.
+    pattern = r"^\(?-?\d+[a-zA-Z]?\)"
+    cleaned_text = [sentence for sentence in ocr_text if not re.match(pattern, sentence.strip())]
+    return cleaned_text
+
+
+def merge_sentences(text_lines):
+    merged_lines = []
+    i = 0
+    while i < len(text_lines):
+        # Check if the line does not end with punctuation and the next line starts with a lowercase letter
+        if i < len(text_lines) - 1 and not re.search(r'[.,;!?]$', text_lines[i]) and text_lines[i+1][0].islower():
+            # Merge current and next line
+            merged_lines.append(
+                text_lines[i].strip() + " " + text_lines[i+1].strip())
+            i += 2  # Skip the next line since it's merged
+        else:
+            # If no merging condition met, just append the current line
+            merged_lines.append(text_lines[i].strip())
+            i += 1
+    return merged_lines
+
 
 def process_qn_files(input_folder, output_folder):
     """
@@ -141,7 +192,6 @@ def process_qn_files(input_folder, output_folder):
         input_folder (str): Path to the folder containing input JSON files.
         output_folder (str): Path to the folder where cleaned JSON files will be saved.
     """
-
     # Ensure the output folder exists
     os.makedirs(output_folder, exist_ok=True)
 
@@ -152,23 +202,32 @@ def process_qn_files(input_folder, output_folder):
         if filename.endswith(".json"):
             input_path = os.path.join(input_folder, filename)
 
-            # Read the JSON file
             with open(input_path, 'r', encoding='utf-8') as file:
                 data = json.load(file)
 
-            # Process the OCR text and filter out empty strings
             ocr_text = data.get("ocr_text", [])
+<<<<<<< HEAD:src/midterm/3. process_qn/old_postprocess_qn.py
             # check in the last 5 lines if they start by (1) or (2a)
             if len(ocr_text) > 5:
                 for i in range(1, 5):
                     if re.match(r"^\(\s*([\da-zA-Z]*)\s*\)", ocr_text[-i]):
                         ocr_text = ocr_text[:-i]
+=======
+            ocr_text = clean_sentences(ocr_text)
+            ocr_text = merge_sentences(ocr_text)
+            # if len(ocr_text) > 5:
+            #     for i in range(1, 5):
+            #         if re.match(r"^\(\s*([\da-zA-Z]*)\s*\)", ocr_text[-i]):
+            #             ocr_text = ocr_text[:-i]
+>>>>>>> Cuon001:src/preprocess_qn_tien.py
             cleaned_ocr_text = []
             for line in ocr_text:
-                cleaned_line = processText(clean_vietnamese_text(line), dictionary).strip()
+                cleaned_line = clean_vietnamese_text(line)
+                # cleaned_line = processText(clean_vietnamese_text(line), dictionary).strip()
                 if cleaned_line:  # Only include non-empty lines
                     cleaned_ocr_text.append(cleaned_line)
-
+            # merged_ocr_text = merge_sentences(cleaned_ocr_text)
+            # print(merged_ocr_text)
             # Prepare the output data
             output_data = {
                 "page": data.get("page"),
@@ -185,6 +244,11 @@ def process_qn_files(input_folder, output_folder):
 
 
 # Example usage
+<<<<<<< HEAD:src/midterm/3. process_qn/old_postprocess_qn.py
 input_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049"  # Replace with your input folder path
 output_folder = "../OCR_QN/Sach-Nom-Cong-Giao-1995-049_Processed"  # Replace with your output folder path
+=======
+input_folder = "Output_OCR_QN_Sach_001"  # Replace with your input folder path
+output_folder = "Output_OCR_QN_Sach_001_Processed_Nam"  # Replace with your output folder path
+>>>>>>> Cuon001:src/preprocess_qn_tien.py
 process_qn_files(input_folder, output_folder)
