@@ -1,0 +1,612 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+    "page": 611,
+    "result": [
+        {
+            "transcription": "各聖嬰殘",
+            "points": [
+                [
+                    431,
+                    61
+                ],
+                [
+                    465,
+                    59
+                ],
+                [
+                    469,
+                    194
+                ],
+                [
+                    435,
+                    195
+========
+    "page": 346,
+    "result": [
+        {
+            "transcription": "浽𠓨坦𡗋蠟浪",
+            "points": [
+                [
+                    414,
+                    47
+                ],
+                [
+                    455,
+                    48
+                ],
+                [
+                    449,
+                    268
+                ],
+                [
+                    407,
+                    267
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+            "transcription": "翁聖躋絶奴",
+            "points": [
+                [
+                    438,
+                    349
+                ],
+                [
+                    471,
+                    348
+                ],
+                [
+                    475,
+                    510
+                ],
+                [
+                    442,
+                    511
+========
+            "transcription": "𨃴包險阻󰜋命碎𬷤",
+            "points": [
+                [
+                    408,
+                    358
+                ],
+                [
+                    446,
+                    358
+                ],
+                [
+                    442,
+                    672
+                ],
+                [
+                    404,
+                    672
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+            "transcription": "翁聖𢗼𦂛𬗢",
+            "points": [
+                [
+                    391,
+                    60
+                ],
+                [
+                    424,
+                    60
+                ],
+                [
+                    428,
+                    225
+                ],
+                [
+                    395,
+                    226
+========
+            "transcription": "󰒂歇滛烝惨󰅒",
+            "points": [
+                [
+                    363,
+                    49
+                ],
+                [
+                    398,
+                    49
+                ],
+                [
+                    400,
+                    265
+                ],
+                [
+                    365,
+                    265
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "緣扒如𬟗坤移爫堂",
+            "points": [
+                [
+                    362,
+                    364
+                ],
+                [
+                    399,
+                    365
+                ],
+                [
+                    392,
+                    672
+                ],
+                [
+                    354,
+                    671
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "塘毅緝戰吏󰠲",
+            "points": [
+                [
+                    318,
+                    46
+                ],
+                [
+                    354,
+                    47
+                ],
+                [
+                    350,
+                    266
+                ],
+                [
+                    313,
+                    265
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+            "transcription": "翁聖爲蓮躋",
+            "points": [
+                [
+                    399,
+                    352
+                ],
+                [
+                    430,
+                    351
+                ],
+                [
+                    434,
+                    511
+                ],
+                [
+                    403,
+                    512
+========
+            "transcription": "𥒥箱爲𢭸核渃𤑟滛",
+            "points": [
+                [
+                    310,
+                    359
+                ],
+                [
+                    344,
+                    359
+                ],
+                [
+                    342,
+                    669
+                ],
+                [
+                    308,
+                    669
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+            "transcription": "翁聖袍悲亞奴共翁聖吹巴碑亞奴",
+            "points": [
+                [
+                    354,
+                    64
+                ],
+                [
+                    381,
+                    64
+                ],
+                [
+                    392,
+                    510
+                ],
+                [
+                    365,
+                    511
+========
+            "transcription": "俸󰠲産𠻵𠸦清",
+            "points": [
+                [
+                    271,
+                    43
+                ],
+                [
+                    309,
+                    44
+                ],
+                [
+                    303,
+                    262
+                ],
+                [
+                    265,
+                    261
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_611.json
+            "transcription": "翁聖樞蜂共翁聖抛祿",
+            "points": [
+                [
+                    315,
+                    65
+                ],
+                [
+                    342,
+                    65
+                ],
+                [
+                    350,
+                    353
+                ],
+                [
+                    322,
+                    353
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁聖姉吹摸共翁望㐱眉亞奴",
+            "points": [
+                [
+                    275,
+                    66
+                ],
+                [
+                    302,
+                    66
+                ],
+                [
+                    311,
+                    448
+                ],
+                [
+                    285,
+                    449
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁聖支𣛟吹烏共翁聖鋪些吹烏",
+            "points": [
+                [
+                    235,
+                    66
+                ],
+                [
+                    262,
+                    66
+                ],
+                [
+                    272,
+                    481
+                ],
+                [
+                    245,
+                    482
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各聖死爲道",
+            "points": [
+                [
+                    193,
+                    64
+                ],
+                [
+                    224,
+                    64
+                ],
+                [
+                    228,
+                    228
+                ],
+                [
+                    197,
+                    229
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁聖次離燭躋",
+            "points": [
+                [
+                    201,
+                    354
+                ],
+                [
+                    231,
+                    354
+                ],
+                [
+                    235,
+                    549
+                ],
+                [
+                    205,
+                    550
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁聖計𦂛移烏",
+            "points": [
+                [
+                    153,
+                    65
+                ],
+                [
+                    183,
+                    65
+                ],
+                [
+                    189,
+                    258
+                ],
+                [
+                    158,
+                    259
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁聖謟噡次烏",
+            "points": [
+                [
+                    158,
+                    356
+                ],
+                [
+                    191,
+                    355
+                ],
+                [
+                    198,
+                    549
+                ],
+                [
+                    165,
+                    551
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "經求各聖",
+            "points": [
+                [
+                    114,
+                    127
+                ],
+                [
+                    141,
+                    126
+                ],
+                [
+                    144,
+                    227
+                ],
+                [
+                    118,
+                    228
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "五十五",
+            "points": [
+                [
+                    128,
+                    522
+                ],
+                [
+                    149,
+                    522
+                ],
+                [
+                    149,
+                    585
+                ],
+                [
+                    128,
+                    585
+========
+            "transcription": "暈台蹺𡎢最迨印移",
+            "points": [
+                [
+                    260,
+                    357
+                ],
+                [
+                    298,
+                    357
+                ],
+                [
+                    291,
+                    674
+                ],
+                [
+                    253,
+                    673
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠫾󰜋𨀈咀没唏",
+            "points": [
+                [
+                    222,
+                    42
+                ],
+                [
+                    260,
+                    43
+                ],
+                [
+                    254,
+                    265
+                ],
+                [
+                    216,
+                    264
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "寔𡎝𨑮段歇𠰺底𣃣",
+            "points": [
+                [
+                    207,
+                    356
+                ],
+                [
+                    247,
+                    356
+                ],
+                [
+                    241,
+                    670
+                ],
+                [
+                    201,
+                    669
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "山𦰤匝劍主迻",
+            "points": [
+                [
+                    166,
+                    42
+                ],
+                [
+                    204,
+                    42
+                ],
+                [
+                    201,
+                    260
+                ],
+                [
+                    164,
+                    259
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "爱麻兎移𬑉逴買之",
+            "points": [
+                [
+                    158,
+                    357
+                ],
+                [
+                    195,
+                    357
+                ],
+                [
+                    188,
+                    668
+                ],
+                [
+                    151,
+                    667
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "攎移双󰘉耒󰑼",
+            "points": [
+                [
+                    116,
+                    43
+                ],
+                [
+                    153,
+                    43
+                ],
+                [
+                    155,
+                    263
+                ],
+                [
+                    118,
+                    263
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "沛昆蓬卿寅𫅷戲𠫾",
+            "points": [
+                [
+                    107,
+                    354
+                ],
+                [
+                    148,
+                    354
+                ],
+                [
+                    145,
+                    668
+                ],
+                [
+                    104,
+                    668
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_346.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

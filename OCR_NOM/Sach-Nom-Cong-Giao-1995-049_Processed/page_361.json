@@ -1,0 +1,612 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+    "page": 361,
+    "result": [
+        {
+            "transcription": "批鵶其富圭几階沛扒在縮役共處在寕平",
+            "points": [
+                [
+                    277,
+                    66
+                ],
+                [
+                    295,
+                    65
+                ],
+                [
+                    303,
+                    396
+                ],
+                [
+                    286,
+                    397
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "殿沛松在好儒共㨿在寕平",
+            "points": [
+                [
+                    253,
+                    69
+                ],
+                [
+                    270,
+                    68
+                ],
+                [
+                    275,
+                    283
+                ],
+                [
+                    257,
+                    283
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "檻圈其李蚩平𣴓沛扒在熙然",
+            "points": [
+                [
+                    258,
+                    303
+                ],
+                [
+                    275,
+                    303
+                ],
+                [
+                    285,
+                    533
+                ],
+                [
+                    267,
+                    534
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "共處在寕耶",
+            "points": [
+                [
+                    231,
+                    70
+                ],
+                [
+                    246,
+                    70
+                ],
+                [
+                    246,
+                    166
+                ],
+                [
+                    231,
+                    166
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "此膓貝書圭羅東沛扒在三山湄當寧平觧郎",
+            "points": [
+                [
+                    230,
+                    184
+                ],
+                [
+                    248,
+                    184
+                ],
+                [
+                    258,
+                    533
+                ],
+                [
+                    241,
+                    534
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "南定共沛處以帝",
+            "points": [
+                [
+                    207,
+                    73
+                ],
+                [
+                    221,
+                    73
+                ],
+                [
+                    221,
+                    205
+                ],
+                [
+                    207,
+                    205
+========
+    "page": 254,
+    "result": [
+        {
+            "transcription": "彼饒各𨅸每翁󰜋汚",
+            "points": [
+                [
+                    346,
+                    368
+                ],
+                [
+                    388,
+                    367
+                ],
+                [
+                    393,
+                    699
+                ],
+                [
+                    351,
+                    700
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "設耒買﨤公同",
+            "points": [
+                [
+                    345,
+                    52
+                ],
+                [
+                    388,
+                    51
+                ],
+                [
+                    391,
+                    263
+                ],
+                [
+                    348,
+                    263
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "偈云泣渃麻據道公",
+            "points": [
+                [
+                    294,
+                    369
+                ],
+                [
+                    336,
+                    368
+                ],
+                [
+                    342,
+                    690
+                ],
+                [
+                    301,
+                    691
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𬌓魯綂耨爫𨖅",
+            "points": [
+                [
+                    290,
+                    56
+                ],
+                [
+                    329,
+                    55
+                ],
+                [
+                    333,
+                    262
+                ],
+                [
+                    294,
+                    262
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+            "transcription": "保禄貝卯圭永治沛払在曲户共處縱在",
+            "points": [
+                [
+                    208,
+                    225
+                ],
+                [
+                    222,
+                    224
+                ],
+                [
+                    233,
+                    533
+                ],
+                [
+                    218,
+                    534
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "潘支姑車公脉其知圭南舍沛扒在几𫢩共處在南定",
+            "points": [
+                [
+                    179,
+                    128
+                ],
+                [
+                    197,
+                    128
+                ],
+                [
+                    208,
+                    536
+                ],
+                [
+                    191,
+                    537
+========
+            "transcription": "闭茶綸𡎝於迻𢺺𣦍",
+            "points": [
+                [
+                    241,
+                    377
+                ],
+                [
+                    280,
+                    376
+                ],
+                [
+                    284,
+                    694
+                ],
+                [
+                    244,
+                    694
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠄼𫳵暑溝尼衝",
+            "points": [
+                [
+                    235,
+                    55
+                ],
+                [
+                    275,
+                    54
+                ],
+                [
+                    280,
+                    265
+                ],
+                [
+                    239,
+                    265
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𥊣𫳵於帝寅𨖅溝都",
+            "points": [
+                [
+                    187,
+                    376
+                ],
+                [
+                    225,
+                    375
+                ],
+                [
+                    228,
+                    699
+                ],
+                [
+                    190,
+                    699
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰟀桃冷盤爫茹",
+            "points": [
+                [
+                    182,
+                    51
+                ],
+                [
+                    222,
+                    51
+                ],
+                [
+                    224,
+                    262
+                ],
+                [
+                    184,
+                    262
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+            "transcription": "須間其珣圭掛市沛扒在自󰠣𠯇處在寧平傳濫正虚發壘𠊚",
+            "points": [
+                [
+                    154,
+                    75
+                ],
+                [
+                    172,
+                    74
+                ],
+                [
+                    183,
+                    536
+                ],
+                [
+                    166,
+                    537
+========
+            "transcription": "呂𮎦𠹾道𬂙打󰑼傳",
+            "points": [
+                [
+                    135,
+                    373
+                ],
+                [
+                    173,
+                    372
+                ],
+                [
+                    177,
+                    698
+                ],
+                [
+                    139,
+                    698
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+            "transcription": "傳江直古坤願謀智理事固㗂共㐌𠓨京件饒貝官内閣𠸜埋",
+            "points": [
+                [
+                    129,
+                    75
+                ],
+                [
+                    149,
+                    74
+                ],
+                [
+                    160,
+                    537
+                ],
+                [
+                    139,
+                    538
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "清",
+            "points": [
+                [
+                    16,
+                    591
+                ],
+                [
+                    258,
+                    584
+                ],
+                [
+                    259,
+                    623
+                ],
+                [
+                    17,
+                    629
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "堂圭天池循跡雕田户名官惜時濫案朱𠊚沛斬決梟頭泰王",
+            "points": [
+                [
+                    104,
+                    76
+                ],
+                [
+                    121,
+                    75
+                ],
+                [
+                    133,
+                    536
+                ],
+                [
+                    117,
+                    537
+========
+            "transcription": "咥包𥹰湿奇沔",
+            "points": [
+                [
+                    131,
+                    53
+                ],
+                [
+                    170,
+                    53
+                ],
+                [
+                    173,
+                    264
+                ],
+                [
+                    134,
+                    264
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+            "transcription": "江󰑼沛胡共標頭𠀧𣈜來補𫴋滝如各故丕",
+            "points": [
+                [
+                    79,
+                    79
+                ],
+                [
+                    97,
+                    78
+                ],
+                [
+                    105,
+                    405
+                ],
+                [
+                    86,
+                    406
+========
+            "transcription": "𦖑唿譸讒所倘﨤浪",
+            "points": [
+                [
+                    84,
+                    376
+                ],
+                [
+                    123,
+                    375
+                ],
+                [
+                    129,
+                    696
+                ],
+                [
+                    90,
+                    697
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049_Processed/page_361.json
+            "transcription": "觀光南越",
+            "points": [
+                [
+                    25,
+                    117
+                ],
+                [
+                    46,
+                    117
+                ],
+                [
+                    46,
+                    196
+                ],
+                [
+                    25,
+                    196
+========
+            "transcription": "油烝燕𧘇當象",
+            "points": [
+                [
+                    81,
+                    55
+                ],
+                [
+                    120,
+                    54
+                ],
+                [
+                    122,
+                    264
+                ],
+                [
+                    83,
+                    264
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "昂扒病𧗱紅𬮙説終",
+            "points": [
+                [
+                    31,
+                    373
+                ],
+                [
+                    70,
+                    372
+                ],
+                [
+                    73,
+                    700
+                ],
+                [
+                    34,
+                    700
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "師𣃣丞奇󰋑常",
+            "points": [
+                [
+                    29,
+                    54
+                ],
+                [
+                    68,
+                    55
+                ],
+                [
+                    63,
+                    271
+                ],
+                [
+                    24,
+                    271
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_254.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

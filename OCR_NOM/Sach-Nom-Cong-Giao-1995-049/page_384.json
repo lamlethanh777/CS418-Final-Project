@@ -1,0 +1,808 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+    "page": 384,
+    "result": [
+        {
+            "transcription": "一",
+            "points": [
+                [
+                    467,
+                    57
+                ],
+                [
+                    472,
+                    57
+                ],
+                [
+                    472,
+                    63
+                ],
+                [
+                    467,
+                    63
+========
+    "page": 275,
+    "result": [
+        {
+            "transcription": "於󰡎䖝嵬",
+            "points": [
+                [
+                    367,
+                    58
+                ],
+                [
+                    413,
+                    57
+                ],
+                [
+                    417,
+                    227
+                ],
+                [
+                    371,
+                    228
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𨑮𤼸冬長",
+            "points": [
+                [
+                    376,
+                    301
+                ],
+                [
+                    425,
+                    300
+                ],
+                [
+                    429,
+                    452
+                ],
+                [
+                    380,
+                    454
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰜋命嘆喧",
+            "points": [
+                [
+                    384,
+                    535
+                ],
+                [
+                    430,
+                    534
+                ],
+                [
+                    433,
+                    703
+                ],
+                [
+                    387,
+                    704
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "仍𢜝拱𠲖",
+            "points": [
+                [
+                    313,
+                    304
+                ],
+                [
+                    359,
+                    300
+                ],
+                [
+                    372,
+                    454
+                ],
+                [
+                    326,
+                    458
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "甘受別雖",
+            "points": [
+                [
+                    330,
+                    540
+                ],
+                [
+                    373,
+                    538
+                ],
+                [
+                    380,
+                    707
+                ],
+                [
+                    337,
+                    709
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "卷𧡊𩈘𡞕",
+            "points": [
+                [
+                    311,
+                    58
+                ],
+                [
+                    354,
+                    57
+                ],
+                [
+                    358,
+                    221
+                ],
+                [
+                    315,
+                    222
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "一百八十八",
+            "points": [
+                [
+                    416,
+                    434
+                ],
+                [
+                    438,
+                    434
+                ],
+                [
+                    435,
+                    533
+                ],
+                [
+                    414,
+                    532
+========
+            "transcription": "会兮呐群",
+            "points": [
+                [
+                    257,
+                    64
+                ],
+                [
+                    303,
+                    63
+                ],
+                [
+                    306,
+                    232
+                ],
+                [
+                    260,
+                    233
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𣈙𠳐天主",
+            "points": [
+                [
+                    263,
+                    309
+                ],
+                [
+                    305,
+                    306
+                ],
+                [
+                    316,
+                    469
+                ],
+                [
+                    274,
+                    471
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𬌓令傳隊",
+            "points": [
+                [
+                    271,
+                    543
+                ],
+                [
+                    318,
+                    541
+                ],
+                [
+                    326,
+                    711
+                ],
+                [
+                    279,
+                    713
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "散䜹浪禀𥛉官癒閉饒𢆥碎於渃尼時只没事勸得些跪逍廊",
+            "points": [
+                [
+                    368,
+                    100
+                ],
+                [
+                    389,
+                    101
+                ],
+                [
+                    377,
+                    621
+                ],
+                [
+                    356,
+                    620
+========
+            "transcription": "傷吒𢖵嘆",
+            "points": [
+                [
+                    209,
+                    314
+                ],
+                [
+                    255,
+                    312
+                ],
+                [
+                    263,
+                    471
+                ],
+                [
+                    217,
+                    473
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "官娥碎補道碎庄貴事𤯩押󰋇碎他秩事𤯩𠯇𠹾𣩂庒他神道",
+            "points": [
+                [
+                    340,
+                    99
+                ],
+                [
+                    361,
+                    100
+                ],
+                [
+                    348,
+                    621
+                ],
+                [
+                    327,
+                    620
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "散皮呐皮𥙩影廊昏",
+            "points": [
+                [
+                    313,
+                    98
+                ],
+                [
+                    335,
+                    99
+                ],
+                [
+                    328,
+                    299
+                ],
+                [
+                    307,
+                    299
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "官使浪󰂇平貝空重事𤯩𠯇正神",
+            "points": [
+                [
+                    307,
+                    340
+                ],
+                [
+                    328,
+                    340
+                ],
+                [
+                    320,
+                    619
+                ],
+                [
+                    300,
+                    618
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𣩂牢󱋨朱塊傳些扒",
+            "points": [
+                [
+                    285,
+                    97
+                ],
+                [
+                    306,
+                    98
+                ],
+                [
+                    303,
+                    275
+                ],
+                [
+                    282,
+                    275
+========
+            "transcription": "爫書説底",
+            "points": [
+                [
+                    221,
+                    547
+                ],
+                [
+                    266,
+                    546
+                ],
+                [
+                    270,
+                    714
+                ],
+                [
+                    225,
+                    716
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "故䜹浪槊宫轎法道禁空特忌飭溋",
+            "points": [
+                [
+                    280,
+                    316
+                ],
+                [
+                    300,
+                    317
+                ],
+                [
+                    292,
+                    619
+                ],
+                [
+                    272,
+                    618
+========
+            "transcription": "𠰘𢙇切𢚸碎",
+            "points": [
+                [
+                    208,
+                    34
+                ],
+                [
+                    250,
+                    34
+                ],
+                [
+                    250,
+                    233
+                ],
+                [
+                    208,
+                    233
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "呈吒𬢱咍",
+            "points": [
+                [
+                    160,
+                    316
+                ],
+                [
+                    207,
+                    315
+                ],
+                [
+                    211,
+                    468
+                ],
+                [
+                    164,
+                    470
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "命空待納命欺固体𫅷特爲丕碎買沛𠫾󱋨移北",
+            "points": [
+                [
+                    258,
+                    97
+                ],
+                [
+                    279,
+                    98
+                ],
+                [
+                    268,
+                    511
+                ],
+                [
+                    246,
+                    511
+========
+            "transcription": "碎黎桓寔",
+            "points": [
+                [
+                    166,
+                    549
+                ],
+                [
+                    212,
+                    547
+                ],
+                [
+                    217,
+                    717
+                ],
+                [
+                    171,
+                    719
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "每浽計排",
+            "points": [
+                [
+                    152,
+                    68
+                ],
+                [
+                    195,
+                    67
+                ],
+                [
+                    198,
+                    237
+                ],
+                [
+                    155,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "翁多拠別黎邊",
+            "points": [
+                [
+                    101,
+                    67
+                ],
+                [
+                    143,
+                    66
+                ],
+                [
+                    149,
+                    294
+                ],
+                [
+                    107,
+                    295
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "揞昆和哭絲油𤉗排",
+            "points": [
+                [
+                    111,
+                    389
+                ],
+                [
+                    149,
+                    387
+                ],
+                [
+                    161,
+                    717
+                ],
+                [
+                    123,
+                    719
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "嘆浪昆哙志咍",
+            "points": [
+                [
+                    47,
+                    65
+                ],
+                [
+                    89,
+                    64
+                ],
+                [
+                    95,
+                    291
+                ],
+                [
+                    53,
+                    292
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-049/page_384.json
+            "transcription": "低鬏史",
+            "points": [
+                [
+                    248,
+                    553
+                ],
+                [
+                    265,
+                    553
+                ],
+                [
+                    263,
+                    616
+                ],
+                [
+                    245,
+                    615
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "名",
+            "points": [
+                [
+                    239,
+                    45
+                ],
+                [
+                    273,
+                    45
+                ],
+                [
+                    273,
+                    62
+                ],
+                [
+                    239,
+                    62
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "仍調官查海固邊宫群海𡗋調恪些空計低故䜹貝各官鑁躐",
+            "points": [
+                [
+                    232,
+                    97
+                ],
+                [
+                    252,
+                    98
+                ],
+                [
+                    236,
+                    619
+                ],
+                [
+                    216,
+                    618
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "妙楊𠯇固法朱年各官撫別傳𡲤昆茹家教法劍𨁪𠊚坤別䕯",
+            "points": [
+                [
+                    203,
+                    97
+                ],
+                [
+                    223,
+                    98
+                ],
+                [
+                    209,
+                    615
+                ],
+                [
+                    189,
+                    614
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "牟等給𠯇𫗁格咹呐貝得些隨等北",
+            "points": [
+                [
+                    175,
+                    96
+                ],
+                [
+                    195,
+                    97
+                ],
+                [
+                    188,
+                    401
+                ],
+                [
+                    168,
+                    400
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "故遂疎閉饒歷皮陽",
+            "points": [
+                [
+                    167,
+                    444
+                ],
+                [
+                    185,
+                    445
+                ],
+                [
+                    178,
+                    613
+                ],
+                [
+                    159,
+                    612
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "林固𠸜都秀󰑼茹司㐌領愚朱特𠫾扒道配𢆥嗣德十二㐌八",
+            "points": [
+                [
+                    147,
+                    94
+                ],
+                [
+                    171,
+                    95
+                ],
+                [
+                    154,
+                    613
+                ],
+                [
+                    130,
+                    612
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𦊚其𠯇㐌領賞𦊚𤾓两雖拱特懇九品女",
+            "points": [
+                [
+                    117,
+                    94
+                ],
+                [
+                    139,
+                    95
+                ],
+                [
+                    132,
+                    445
+                ],
+                [
+                    111,
+                    445
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "故邊䜹浪渚時",
+            "points": [
+                [
+                    108,
+                    481
+                ],
+                [
+                    133,
+                    483
+                ],
+                [
+                    125,
+                    613
+                ],
+                [
+                    100,
+                    611
+========
+            "transcription": "𠀧𨑮𦊛護㐌迢咍諸",
+            "points": [
+                [
+                    56,
+                    390
+                ],
+                [
+                    97,
+                    388
+                ],
+                [
+                    107,
+                    711
+                ],
+                [
+                    66,
+                    713
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_275.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

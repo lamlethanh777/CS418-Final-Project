@@ -1,0 +1,660 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_623.json
+    "page": 623,
+    "result": [
+        {
+            "transcription": "爲德主支秋𨖲𡗶",
+            "points": [
+                [
+                    413,
+                    70
+                ],
+                [
+                    443,
+                    69
+                ],
+                [
+                    451,
+                    285
+                ],
+                [
+                    421,
+                    286
+========
+    "page": 298,
+    "result": [
+        {
+            "transcription": "黎㨿𨀈旦𧵆云",
+            "points": [
+                [
+                    414,
+                    69
+                ],
+                [
+                    452,
+                    72
+                ],
+                [
+                    437,
+                    272
+                ],
+                [
+                    399,
+                    269
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "者𦣰爫几貪人浽湄",
+            "points": [
+                [
+                    394,
+                    364
+                ],
+                [
+                    429,
+                    366
+                ],
+                [
+                    413,
+                    666
+                ],
+                [
+                    379,
+                    664
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠄼𠊛忍楚𨇒空",
+            "points": [
+                [
+                    365,
+                    63
+                ],
+                [
+                    403,
+                    65
+                ],
+                [
+                    392,
+                    275
+                ],
+                [
+                    353,
+                    273
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠳨泛庄舘󰟀尼󰠳縈",
+            "points": [
+                [
+                    344,
+                    364
+                ],
+                [
+                    383,
+                    366
+                ],
+                [
+                    368,
+                    663
+                ],
+                [
+                    330,
+                    661
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "䜹浪尋於𪟽車",
+            "points": [
+                [
+                    314,
+                    57
+                ],
+                [
+                    352,
+                    59
+                ],
+                [
+                    339,
+                    278
+                ],
+                [
+                    300,
+                    276
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "鬏行鎖湿𡄎茹徐低",
+            "points": [
+                [
+                    291,
+                    359
+                ],
+                [
+                    334,
+                    361
+                ],
+                [
+                    319,
+                    663
+                ],
+                [
+                    276,
+                    661
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "名",
+            "points": [
+                [
+                    280,
+                    32
+                ],
+                [
+                    303,
+                    27
+                ],
+                [
+                    307,
+                    46
+                ],
+                [
+                    283,
+                    50
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠄼孕坤別買柴",
+            "points": [
+                [
+                    264,
+                    53
+                ],
+                [
+                    303,
+                    55
+                ],
+                [
+                    288,
+                    267
+                ],
+                [
+                    249,
+                    264
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "㗂𡢐𬼀事買排𤋵𬫤",
+            "points": [
+                [
+                    245,
+                    356
+                ],
+                [
+                    282,
+                    358
+                ],
+                [
+                    266,
+                    661
+                ],
+                [
+                    228,
+                    659
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠹾蜂歇渃嗜鴈",
+            "points": [
+                [
+                    215,
+                    54
+                ],
+                [
+                    250,
+                    56
+                ],
+                [
+                    238,
+                    259
+                ],
+                [
+                    204,
+                    257
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_298.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_623.json
+            "transcription": "爲德主支秋傳法聖體",
+            "points": [
+                [
+                    374,
+                    72
+                ],
+                [
+                    404,
+                    70
+                ],
+                [
+                    416,
+                    347
+                ],
+                [
+                    387,
+                    348
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "爲德主𢺺秋𢝙𢜠快樂",
+            "points": [
+                [
+                    339,
+                    75
+                ],
+                [
+                    366,
+                    73
+                ],
+                [
+                    378,
+                    347
+                ],
+                [
+                    351,
+                    348
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "爲德主之秋榮顯創朗",
+            "points": [
+                [
+                    303,
+                    76
+                ],
+                [
+                    329,
+                    75
+                ],
+                [
+                    339,
+                    347
+                ],
+                [
+                    313,
+                    348
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "陳主支秋救罪󰡲碎",
+            "points": [
+                [
+                    274,
+                    380
+                ],
+                [
+                    308,
+                    379
+                ],
+                [
+                    312,
+                    619
+                ],
+                [
+                    278,
+                    619
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋贖罪救世",
+            "points": [
+                [
+                    263,
+                    76
+                ],
+                [
+                    292,
+                    74
+                ],
+                [
+                    302,
+                    287
+                ],
+                [
+                    273,
+                    288
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "䜹主支秋任𠳒𧖱碎",
+            "points": [
+                [
+                    236,
+                    382
+                ],
+                [
+                    270,
+                    381
+                ],
+                [
+                    275,
+                    621
+                ],
+                [
+                    241,
+                    621
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋贖罪救世",
+            "points": [
+                [
+                    227,
+                    77
+                ],
+                [
+                    254,
+                    76
+                ],
+                [
+                    263,
+                    288
+                ],
+                [
+                    236,
+                    289
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "缺匕",
+            "points": [
+                [
+                    209,
+                    384
+                ],
+                [
+                    228,
+                    384
+                ],
+                [
+                    228,
+                    415
+                ],
+                [
+                    209,
+                    415
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋傷㤕眾碎",
+            "points": [
+                [
+                    201,
+                    405
+                ],
+                [
+                    228,
+                    404
+                ],
+                [
+                    236,
+                    619
+                ],
+                [
+                    209,
+                    620
+========
+            "transcription": "尋渃孕孕計咍𠫾私",
+            "points": [
+                [
+                    195,
+                    354
+                ],
+                [
+                    232,
+                    356
+                ],
+                [
+                    216,
+                    668
+                ],
+                [
+                    178,
+                    666
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_298.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_623.json
+            "transcription": "主支秋贖罪救世",
+            "points": [
+                [
+                    187,
+                    77
+                ],
+                [
+                    217,
+                    75
+                ],
+                [
+                    228,
+                    289
+                ],
+                [
+                    198,
+                    291
+========
+            "transcription": "柴鸾𡎝爫黎邊",
+            "points": [
+                [
+                    170,
+                    51
+                ],
+                [
+                    206,
+                    53
+                ],
+                [
+                    194,
+                    256
+                ],
+                [
+                    158,
+                    254
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "篤𢚸蹺主過𩄲󰅒外",
+            "points": [
+                [
+                    152,
+                    352
+                ],
+                [
+                    187,
+                    354
+                ],
+                [
+                    168,
+                    658
+                ],
+                [
+                    134,
+                    656
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "牟𠊛默差𠀧才",
+            "points": [
+                [
+                    125,
+                    43
+                ],
+                [
+                    159,
+                    45
+                ],
+                [
+                    145,
+                    254
+                ],
+                [
+                    110,
+                    252
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_298.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_623.json
+            "transcription": "主支秋𦖑朱𫎇碎",
+            "points": [
+                [
+                    155,
+                    78
+                ],
+                [
+                    182,
+                    77
+                ],
+                [
+                    189,
+                    289
+                ],
+                [
+                    162,
+                    290
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋任囷眾碎",
+            "points": [
+                [
+                    162,
+                    409
+                ],
+                [
+                    191,
+                    408
+                ],
+                [
+                    200,
+                    624
+                ],
+                [
+                    171,
+                    625
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "明勳勳勳勳",
+            "points": [
+                [
+                    152,
+                    417
+                ],
+                [
+                    162,
+                    416
+                ],
+                [
+                    165,
+                    517
+                ],
+                [
+                    155,
+                    517
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "國圖弼",
+            "points": [
+                [
+                    155,
+                    565
+                ],
+                [
+                    169,
+                    565
+                ],
+                [
+                    171,
+                    650
+                ],
+                [
+                    157,
+                    650
+========
+            "transcription": "風中道多𥙩外仄花",
+            "points": [
+                [
+                    100,
+                    350
+                ],
+                [
+                    135,
+                    351
+                ],
+                [
+                    123,
+                    647
+                ],
+                [
+                    88,
+                    645
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_298.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

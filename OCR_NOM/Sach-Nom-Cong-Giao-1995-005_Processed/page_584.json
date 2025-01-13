@@ -1,0 +1,574 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_584.json
+    "page": 584,
+    "result": [
+        {
+            "transcription": "女王嵬罪祖宗",
+            "points": [
+                [
+                    365,
+                    97
+                ],
+                [
+                    393,
+                    97
+                ],
+                [
+                    390,
+                    241
+                ],
+                [
+                    363,
+                    240
+========
+    "page": 372,
+    "result": [
+        {
+            "transcription": "𦊚肄簪槊",
+            "points": [
+                [
+                    413,
+                    104
+                ],
+                [
+                    451,
+                    106
+                ],
+                [
+                    442,
+                    269
+                ],
+                [
+                    404,
+                    267
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "儉頭𥛉𡗶攎機",
+            "points": [
+                [
+                    369,
+                    32
+                ],
+                [
+                    406,
+                    34
+                ],
+                [
+                    394,
+                    247
+                ],
+                [
+                    357,
+                    244
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_372.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_584.json
+            "transcription": "𩯀𠊛默𪽝丞窖𠲖撑",
+            "points": [
+                [
+                    360,
+                    351
+                ],
+                [
+                    385,
+                    351
+                ],
+                [
+                    379,
+                    541
+                ],
+                [
+                    355,
+                    541
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "女王宦雪牢沙",
+            "points": [
+                [
+                    327,
+                    95
+                ],
+                [
+                    354,
+                    95
+                ],
+                [
+                    354,
+                    232
+                ],
+                [
+                    327,
+                    232
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "沉嗷花󰠕𢚸𨇍嘆枚",
+            "points": [
+                [
+                    320,
+                    349
+                ],
+                [
+                    347,
+                    349
+                ],
+                [
+                    342,
+                    547
+                ],
+                [
+                    314,
+                    547
+========
+            "transcription": "歇喧㗍𡶀光知昆梁",
+            "points": [
+                [
+                    357,
+                    346
+                ],
+                [
+                    392,
+                    348
+                ],
+                [
+                    377,
+                    651
+                ],
+                [
+                    342,
+                    649
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_372.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_584.json
+            "transcription": "詔",
+            "points": [
+                [
+                    299,
+                    44
+                ],
+                [
+                    325,
+                    44
+                ],
+                [
+                    325,
+                    61
+                ],
+                [
+                    299,
+                    61
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰇥妑聖母壼魚",
+            "points": [
+                [
+                    287,
+                    93
+                ],
+                [
+                    315,
+                    93
+                ],
+                [
+                    315,
+                    243
+                ],
+                [
+                    287,
+                    243
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "吀傷弹每恩苓朱碎",
+            "points": [
+                [
+                    280,
+                    349
+                ],
+                [
+                    307,
+                    349
+                ],
+                [
+                    302,
+                    544
+                ],
+                [
+                    276,
+                    544
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "徐妑󰑼媄主𡗶",
+            "points": [
+                [
+                    249,
+                    92
+                ],
+                [
+                    276,
+                    92
+                ],
+                [
+                    276,
+                    236
+                ],
+                [
+                    249,
+                    236
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "吀傷忍𥙩仍𠳒碎𣦍",
+            "points": [
+                [
+                    242,
+                    346
+                ],
+                [
+                    267,
+                    346
+                ],
+                [
+                    264,
+                    534
+                ],
+                [
+                    238,
+                    534
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "圭𡥵媒罪𥹰全",
+            "points": [
+                [
+                    212,
+                    91
+                ],
+                [
+                    241,
+                    92
+                ],
+                [
+                    236,
+                    239
+                ],
+                [
+                    208,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "㗂他罪辱約𦼔𫥨碎",
+            "points": [
+                [
+                    204,
+                    344
+                ],
+                [
+                    229,
+                    344
+                ],
+                [
+                    226,
+                    545
+                ],
+                [
+                    201,
+                    545
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主𡥵𧵑罪劎代",
+            "points": [
+                [
+                    176,
+                    87
+                ],
+                [
+                    203,
+                    88
+                ],
+                [
+                    196,
+                    234
+                ],
+                [
+                    169,
+                    233
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "粃𦖻情恤弹𭈿瓊𡎦",
+            "points": [
+                [
+                    166,
+                    343
+                ],
+                [
+                    193,
+                    343
+                ],
+                [
+                    187,
+                    539
+                ],
+                [
+                    160,
+                    539
+========
+            "transcription": "咍助𡮍𧘇功鸚",
+            "points": [
+                [
+                    316,
+                    30
+                ],
+                [
+                    357,
+                    31
+                ],
+                [
+                    352,
+                    239
+                ],
+                [
+                    311,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "払𠫾𠊛全𢴑𥘀沙",
+            "points": [
+                [
+                    304,
+                    341
+                ],
+                [
+                    344,
+                    343
+                ],
+                [
+                    329,
+                    634
+                ],
+                [
+                    289,
+                    632
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠰘北𠊛呐圣如碑",
+            "points": [
+                [
+                    274,
+                    2
+                ],
+                [
+                    311,
+                    5
+                ],
+                [
+                    291,
+                    253
+                ],
+                [
+                    254,
+                    250
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "朱夭千死𥙩獄礼",
+            "points": [
+                [
+                    253,
+                    337
+                ],
+                [
+                    291,
+                    339
+                ],
+                [
+                    276,
+                    650
+                ],
+                [
+                    238,
+                    648
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𪽝爲驕枚終情",
+            "points": [
+                [
+                    219,
+                    29
+                ],
+                [
+                    256,
+                    30
+                ],
+                [
+                    247,
+                    239
+                ],
+                [
+                    210,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠽐信哭寔𠄩命灾嘆",
+            "points": [
+                [
+                    203,
+                    340
+                ],
+                [
+                    236,
+                    341
+                ],
+                [
+                    224,
+                    654
+                ],
+                [
+                    190,
+                    652
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠊛喧𭈿呐如󰑼",
+            "points": [
+                [
+                    166,
+                    26
+                ],
+                [
+                    207,
+                    27
+                ],
+                [
+                    199,
+                    239
+                ],
+                [
+                    158,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "默竹﨤喧祿文頭命",
+            "points": [
+                [
+                    150,
+                    338
+                ],
+                [
+                    185,
+                    339
+                ],
+                [
+                    172,
+                    652
+                ],
+                [
+                    137,
+                    650
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "弹迷𤢿㤕秩命",
+            "points": [
+                [
+                    113,
+                    29
+                ],
+                [
+                    152,
+                    30
+                ],
+                [
+                    148,
+                    240
+                ],
+                [
+                    109,
+                    240
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "扵羡𠊛也負情𠖈枚",
+            "points": [
+                [
+                    104,
+                    332
+                ],
+                [
+                    138,
+                    333
+                ],
+                [
+                    123,
+                    641
+                ],
+                [
+                    89,
+                    640
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed/page_372.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

@@ -1,0 +1,712 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+    "page": 534,
+    "result": [
+        {
+            "transcription": "各賜天神咍濫法還",
+            "points": [
+                [
+                    389,
+                    105
+                ],
+                [
+                    413,
+                    106
+                ],
+                [
+                    408,
+                    277
+                ],
+                [
+                    385,
+                    276
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各賜天神明几劣几困",
+            "points": [
+                [
+                    384,
+                    368
+                ],
+                [
+                    408,
+                    369
+                ],
+                [
+                    403,
+                    557
+                ],
+                [
+                    380,
+                    556
+========
+    "page": 431,
+    "result": [
+        {
+            "transcription": "總芸喭怯料忠惚綏𧯄𨅸無",
+            "points": [
+                [
+                    390,
+                    68
+                ],
+                [
+                    436,
+                    67
+                ],
+                [
+                    445,
+                    402
+                ],
+                [
+                    399,
+                    404
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "涓丞禍移",
+            "points": [
+                [
+                    387,
+                    296
+                ],
+                [
+                    411,
+                    297
+                ],
+                [
+                    408,
+                    400
+                ],
+                [
+                    383,
+                    400
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "名四天神顒國治民",
+            "points": [
+                [
+                    362,
+                    106
+                ],
+                [
+                    382,
+                    107
+                ],
+                [
+                    379,
+                    275
+                ],
+                [
+                    359,
+                    275
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各四天脚侍歇偈世",
+            "points": [
+                [
+                    358,
+                    368
+                ],
+                [
+                    378,
+                    369
+                ],
+                [
+                    374,
+                    537
+                ],
+                [
+                    355,
+                    536
+========
+            "transcription": "󰟯𫋻秩張",
+            "points": [
+                [
+                    386,
+                    434
+                ],
+                [
+                    426,
+                    433
+                ],
+                [
+                    428,
+                    577
+                ],
+                [
+                    388,
+                    577
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󱉎󰜏冲",
+            "points": [
+                [
+                    357,
+                    262
+                ],
+                [
+                    383,
+                    261
+                ],
+                [
+                    388,
+                    346
+                ],
+                [
+                    362,
+                    347
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "勾終𥰊𨀈時苔",
+            "points": [
+                [
+                    348,
+                    63
+                ],
+                [
+                    387,
+                    65
+                ],
+                [
+                    378,
+                    266
+                ],
+                [
+                    339,
+                    264
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰡂吝𢞂𨅸𢙇",
+            "points": [
+                [
+                    341,
+                    432
+                ],
+                [
+                    380,
+                    433
+                ],
+                [
+                    377,
+                    591
+                ],
+                [
+                    338,
+                    591
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "各賜天神𤼸福德眾碎畧󰘚德主𡗶各理天鄙昭柴識𠴗眾碎",
+            "points": [
+                [
+                    336,
+                    106
+                ],
+                [
+                    355,
+                    107
+                ],
+                [
+                    347,
+                    577
+                ],
+                [
+                    328,
+                    576
+========
+            "transcription": "泊黎絶核",
+            "points": [
+                [
+                    331,
+                    260
+                ],
+                [
+                    367,
+                    260
+                ],
+                [
+                    367,
+                    368
+                ],
+                [
+                    331,
+                    368
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "各魏天神󰑼囬假几戌瑰困難各理天神畢官骸眾碎",
+            "points": [
+                [
+                    309,
+                    106
+                ],
+                [
+                    329,
+                    107
+                ],
+                [
+                    321,
+                    556
+                ],
+                [
+                    301,
+                    555
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各四天神將軍國德主𡗶",
+            "points": [
+                [
+                    281,
+                    105
+                ],
+                [
+                    301,
+                    106
+                ],
+                [
+                    299,
+                    315
+                ],
+                [
+                    279,
+                    315
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各丑天卿󰑼使副德主𡗶差",
+            "points": [
+                [
+                    278,
+                    369
+                ],
+                [
+                    296,
+                    370
+                ],
+                [
+                    292,
+                    596
+                ],
+                [
+                    274,
+                    595
+========
+            "transcription": "第差差耒",
+            "points": [
+                [
+                    297,
+                    62
+                ],
+                [
+                    332,
+                    62
+                ],
+                [
+                    332,
+                    223
+                ],
+                [
+                    297,
+                    223
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "各圍天洳牌權勞𠊚些特忌",
+            "points": [
+                [
+                    255,
+                    105
+                ],
+                [
+                    274,
+                    106
+                ],
+                [
+                    270,
+                    336
+                ],
+                [
+                    251,
+                    335
+========
+            "transcription": "󰟯𠬠𤞻金󰠱",
+            "points": [
+                [
+                    286,
+                    435
+                ],
+                [
+                    327,
+                    434
+                ],
+                [
+                    330,
+                    582
+                ],
+                [
+                    289,
+                    583
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "各聖天神兵眾碎欺兎吿奈",
+            "points": [
+                [
+                    251,
+                    366
+                ],
+                [
+                    272,
+                    367
+                ],
+                [
+                    266,
+                    597
+                ],
+                [
+                    246,
+                    596
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各理天𥪝安顯靈號城媒觥",
+            "points": [
+                [
+                    229,
+                    105
+                ],
+                [
+                    249,
+                    106
+                ],
+                [
+                    244,
+                    333
+                ],
+                [
+                    224,
+                    332
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "各四天神號鑑雅几󰅾󰟆天堂",
+            "points": [
+                [
+                    224,
+                    367
+                ],
+                [
+                    243,
+                    368
+                ],
+                [
+                    238,
+                    617
+                ],
+                [
+                    219,
+                    616
+========
+            "transcription": "案苓筭專",
+            "points": [
+                [
+                    244,
+                    56
+                ],
+                [
+                    280,
+                    56
+                ],
+                [
+                    280,
+                    210
+                ],
+                [
+                    244,
+                    210
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "名噐天神濫彗朱卯碎",
+            "points": [
+                [
+                    201,
+                    104
+                ],
+                [
+                    222,
+                    105
+                ],
+                [
+                    218,
+                    289
+                ],
+                [
+                    197,
+                    288
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "踈名黒天卿濫苔朱眾碎",
+            "points": [
+                [
+                    198,
+                    367
+                ],
+                [
+                    217,
+                    368
+                ],
+                [
+                    211,
+                    571
+========
+            "transcription": "𤾓次𪭯底󰠱",
+            "points": [
+                [
+                    231,
+                    431
+                ],
+                [
+                    275,
+                    430
+                ],
+                [
+                    278,
+                    594
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ],
+                [
+                    234,
+                    594
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "矯泛事災事與",
+            "points": [
+                [
+                    174,
+                    103
+                ],
+                [
+                    196,
+                    104
+                ],
+                [
+                    192,
+                    229
+                ],
+                [
+                    171,
+                    229
+========
+            "transcription": "畧冬差󰠳",
+            "points": [
+                [
+                    188,
+                    58
+                ],
+                [
+                    231,
+                    57
+                ],
+                [
+                    234,
+                    224
+                ],
+                [
+                    191,
+                    224
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "蒙於𫋻悶娘",
+            "points": [
+                [
+                    181,
+                    430
+                ],
+                [
+                    224,
+                    429
+                ],
+                [
+                    228,
+                    592
+                ],
+                [
+                    185,
+                    592
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "業群居孝",
+            "points": [
+                [
+                    143,
+                    59
+                ],
+                [
+                    179,
+                    59
+                ],
+                [
+                    179,
+                    228
+                ],
+                [
+                    143,
+                    228
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰟯𠬠𫋻扒𥘀",
+            "points": [
+                [
+                    135,
+                    430
+                ],
+                [
+                    174,
+                    430
+                ],
+                [
+                    174,
+                    597
+                ],
+                [
+                    135,
+                    597
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "孕盃差尋",
+            "points": [
+                [
+                    94,
+                    57
+                ],
+                [
+                    130,
+                    56
+                ],
+                [
+                    132,
+                    216
+                ],
+                [
+                    96,
+                    216
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_534.json
+            "transcription": "漁名聖天神助眾碎旬節拱䜹如丕",
+            "points": [
+                [
+                    170,
+                    363
+                ],
+                [
+                    190,
+                    364
+                ],
+                [
+                    182,
+                    615
+                ],
+                [
+                    162,
+                    614
+========
+            "transcription": "棠冬𫋻壹琴",
+            "points": [
+                [
+                    79,
+                    426
+                ],
+                [
+                    125,
+                    426
+                ],
+                [
+                    125,
+                    603
+                ],
+                [
+                    79,
+                    603
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_431.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

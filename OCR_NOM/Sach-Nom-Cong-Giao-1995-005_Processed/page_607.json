@@ -1,0 +1,610 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+    "page": 607,
+    "result": [
+        {
+            "transcription": "爲德主聖神現𫴋",
+            "points": [
+                [
+                    353,
+                    91
+                ],
+                [
+                    383,
+                    91
+                ],
+                [
+                    383,
+                    312
+                ],
+                [
+                    353,
+                    312
+========
+    "page": 357,
+    "result": [
+        {
+            "transcription": "爫牢元房主𡗶",
+            "points": [
+                [
+                    379,
+                    63
+                ],
+                [
+                    418,
+                    63
+                ],
+                [
+                    418,
+                    271
+                ],
+                [
+                    379,
+                    271
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "旦𣈜判察",
+            "points": [
+                [
+                    350,
+                    342
+                ],
+                [
+                    385,
+                    343
+                ],
+                [
+                    383,
+                    474
+                ],
+                [
+                    348,
+                    473
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "蒙碎󰑼几固罪",
+            "points": [
+                [
+                    315,
+                    92
+                ],
+                [
+                    341,
+                    92
+                ],
+                [
+                    341,
+                    279
+                ],
+                [
+                    315,
+                    279
+========
+            "transcription": "覌移𥙩衮爫伸𨄹昆",
+            "points": [
+                [
+                    376,
+                    377
+                ],
+                [
+                    415,
+                    378
+                ],
+                [
+                    407,
+                    683
+                ],
+                [
+                    368,
+                    682
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "䜹嗔主𦖑朱𧖱碎",
+            "points": [
+                [
+                    314,
+                    341
+                ],
+                [
+                    345,
+                    342
+                ],
+                [
+                    339,
+                    551
+                ],
+                [
+                    309,
+                    550
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "八句指拱",
+            "points": [
+                [
+                    326,
+                    554
+                ],
+                [
+                    348,
+                    554
+                ],
+                [
+                    345,
+                    639
+                ],
+                [
+                    324,
+                    639
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "䜹如丕一",
+            "points": [
+                [
+                    306,
+                    559
+                ],
+                [
+                    327,
+                    559
+                ],
+                [
+                    327,
+                    639
+                ],
+                [
+                    306,
+                    639
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "嗔主赦罪朱𧖱碎",
+            "points": [
+                [
+                    278,
+                    92
+                ],
+                [
+                    304,
+                    92
+                ],
+                [
+                    304,
+                    310
+                ],
+                [
+                    278,
+                    310
+========
+            "transcription": "計自漨派士絲",
+            "points": [
+                [
+                    333,
+                    63
+                ],
+                [
+                    372,
+                    64
+                ],
+                [
+                    365,
+                    266
+                ],
+                [
+                    326,
+                    265
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "凝󰠳紅宁滛深爫牢",
+            "points": [
+                [
+                    327,
+                    377
+                ],
+                [
+                    363,
+                    378
+                ],
+                [
+                    353,
+                    684
+                ],
+                [
+                    317,
+                    683
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "嗔主容想朱蒙碎",
+            "points": [
+                [
+                    276,
+                    343
+                ],
+                [
+                    303,
+                    344
+                ],
+                [
+                    300,
+                    562
+                ],
+                [
+                    273,
+                    562
+========
+            "transcription": "𣳔私𫽄童𫽄鴈",
+            "points": [
+                [
+                    289,
+                    62
+                ],
+                [
+                    324,
+                    63
+                ],
+                [
+                    318,
+                    268
+                ],
+                [
+                    283,
+                    267
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𧘇常卽丿𠁀牢拱𠸦",
+            "points": [
+                [
+                    278,
+                    372
+                ],
+                [
+                    312,
+                    373
+                ],
+                [
+                    303,
+                    681
+                ],
+                [
+                    268,
+                    680
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠰘吒𠊛弹綸哭迢",
+            "points": [
+                [
+                    239,
+                    15
+                ],
+                [
+                    281,
+                    16
+                ],
+                [
+                    271,
+                    268
+                ],
+                [
+                    228,
+                    266
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "名十",
+            "points": [
+                [
+                    226,
+                    42
+                ],
+                [
+                    255,
+                    38
+                ],
+                [
+                    258,
+                    57
+                ],
+                [
+                    229,
+                    61
+========
+            "transcription": "墮󰅒仁󱉎凭𠦳󰞺那",
+            "points": [
+                [
+                    227,
+                    370
+                ],
+                [
+                    263,
+                    371
+                ],
+                [
+                    256,
+                    686
+                ],
+                [
+                    221,
+                    685
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "嗔主𨷑𢚸朱眾碎按雕罪年",
+            "points": [
+                [
+                    238,
+                    91
+                ],
+                [
+                    265,
+                    91
+                ],
+                [
+                    263,
+                    432
+                ],
+                [
+                    236,
+                    432
+========
+            "transcription": "𬮎油带奇𠖈溪",
+            "points": [
+                [
+                    184,
+                    59
+                ],
+                [
+                    223,
+                    60
+                ],
+                [
+                    216,
+                    274
+                ],
+                [
+                    177,
+                    273
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_607.json
+            "transcription": "嗔主該治共攄𪧚會聖",
+            "points": [
+                [
+                    201,
+                    92
+                ],
+                [
+                    225,
+                    92
+                ],
+                [
+                    225,
+                    369
+                ],
+                [
+                    201,
+                    369
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "嗔主僊𪧚德敎宗共各品秩會聖恒於朱稱北命",
+            "points": [
+                [
+                    161,
+                    89
+                ],
+                [
+                    187,
+                    89
+                ],
+                [
+                    183,
+                    651
+                ],
+                [
+                    157,
+                    651
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "順主下几濫逆共會聖乙",
+            "points": [
+                [
+                    123,
+                    91
+                ],
+                [
+                    145,
+                    91
+                ],
+                [
+                    145,
+                    397
+                ],
+                [
+                    123,
+                    397
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "嗔主朱𢚸主官權固道特平安和順",
+            "points": [
+                [
+                    82,
+                    87
+                ],
+                [
+                    109,
+                    87
+                ],
+                [
+                    107,
+                    526
+                ],
+                [
+                    80,
+                    526
+========
+            "transcription": "𠁀𠄩𨑮𠸜歇𡎝曾絲",
+            "points": [
+                [
+                    177,
+                    367
+                ],
+                [
+                    212,
+                    368
+                ],
+                [
+                    201,
+                    674
+                ],
+                [
+                    166,
+                    673
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𨔍之圣庵乾坤",
+            "points": [
+                [
+                    128,
+                    59
+                ],
+                [
+                    168,
+                    60
+                ],
+                [
+                    164,
+                    274
+                ],
+                [
+                    124,
+                    274
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𫢩名救𢬭産群如税",
+            "points": [
+                [
+                    122,
+                    364
+                ],
+                [
+                    161,
+                    366
+                ],
+                [
+                    146,
+                    673
+                ],
+                [
+                    107,
+                    672
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "王㳶帝𤑟決墙",
+            "points": [
+                [
+                    75,
+                    58
+                ],
+                [
+                    114,
+                    59
+                ],
+                [
+                    112,
+                    266
+                ],
+                [
+                    73,
+                    266
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠓨𩄲歇拱󰝸煩庒饒",
+            "points": [
+                [
+                    69,
+                    365
+                ],
+                [
+                    104,
+                    366
+                ],
+                [
+                    95,
+                    676
+                ],
+                [
+                    60,
+                    675
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Rotated/page_357.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

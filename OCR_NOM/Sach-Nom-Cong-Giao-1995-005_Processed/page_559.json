@@ -1,0 +1,620 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_559.json
+    "page": 559,
+    "result": [
+        {
+            "transcription": "立迻恩𡎝𠬠綏𨖅",
+            "points": [
+                [
+                    414,
+                    64
+                ],
+                [
+                    451,
+                    65
+                ],
+                [
+                    447,
+                    305
+                ],
+                [
+                    410,
+                    304
+========
+    "page": 366,
+    "result": [
+        {
+            "transcription": "差情除丿差情",
+            "points": [
+                [
+                    432,
+                    79
+                ],
+                [
+                    468,
+                    81
+                ],
+                [
+                    455,
+                    280
+                ],
+                [
+                    420,
+                    278
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed_Rotated/page_366.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_559.json
+            "transcription": "󰌎魂𧖱吏𣘽𥋳潯情",
+            "points": [
+                [
+                    408,
+                    338
+                ],
+                [
+                    444,
+                    337
+                ],
+                [
+                    450,
+                    619
+                ],
+                [
+                    414,
+                    620
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "払於蒙仍𠽄牟生",
+            "points": [
+                [
+                    369,
+                    63
+                ],
+                [
+                    406,
+                    64
+                ],
+                [
+                    399,
+                    297
+                ],
+                [
+                    362,
+                    296
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "庒推𡗶捁役令紅𦣰",
+            "points": [
+                [
+                    360,
+                    329
+                ],
+                [
+                    396,
+                    328
+                ],
+                [
+                    401,
+                    619
+                ],
+                [
+                    365,
+                    620
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𢚸𢗼𠰘呐𨉓爫",
+            "points": [
+                [
+                    323,
+                    82
+                ],
+                [
+                    359,
+                    83
+                ],
+                [
+                    356,
+                    302
+                ],
+                [
+                    320,
+                    301
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "嗔匕怜犯差桃霪催",
+            "points": [
+                [
+                    319,
+                    328
+                ],
+                [
+                    355,
+                    328
+                ],
+                [
+                    358,
+                    615
+                ],
+                [
+                    322,
+                    616
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "箋魂唿法庒緣",
+            "points": [
+                [
+                    276,
+                    64
+                ],
+                [
+                    315,
+                    66
+                ],
+                [
+                    305,
+                    302
+                ],
+                [
+                    267,
+                    300
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𣳔󰡲爨恪𢴑滝𡗋翹",
+            "points": [
+                [
+                    267,
+                    329
+                ],
+                [
+                    305,
+                    330
+                ],
+                [
+                    299,
+                    617
+                ],
+                [
+                    262,
+                    616
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𦊛决壳𦛜我深",
+            "points": [
+                [
+                    233,
+                    79
+                ],
+                [
+                    266,
+                    80
+                ],
+                [
+                    261,
+                    304
+                ],
+                [
+                    228,
+                    303
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠫾乾𨤮𪽝󰝸跪塘𠄩",
+            "points": [
+                [
+                    221,
+                    330
+                ],
+                [
+                    258,
+                    330
+                ],
+                [
+                    256,
+                    623
+                ],
+                [
+                    219,
+                    622
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "敬𤼸庒󰠳心饒",
+            "points": [
+                [
+                    188,
+                    78
+                ],
+                [
+                    225,
+                    77
+                ],
+                [
+                    227,
+                    304
+                ],
+                [
+                    190,
+                    304
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "秦梭󰝸鍮𡎢𠇮懃緣",
+            "points": [
+                [
+                    188,
+                    333
+                ],
+                [
+                    220,
+                    334
+                ],
+                [
+                    214,
+                    626
+                ],
+                [
+                    182,
+                    625
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "迻千󰦓寇󰝸𠫾",
+            "points": [
+                [
+                    143,
+                    64
+                ],
+                [
+                    177,
+                    63
+                ],
+                [
+                    180,
+                    305
+                ],
+                [
+                    146,
+                    306
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "咹𮥷𡢐綸𣈜𣇞尽潙",
+            "points": [
+                [
+                    145,
+                    334
+                ],
+                [
+                    181,
+                    335
+                ],
+                [
+                    174,
+                    629
+                ],
+                [
+                    138,
+                    628
+========
+            "transcription": "𢞂翁𠄩漢秋命求󰑼",
+            "points": [
+                [
+                    411,
+                    380
+                ],
+                [
+                    445,
+                    382
+                ],
+                [
+                    430,
+                    678
+                ],
+                [
+                    396,
+                    676
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "稿𣘃󰘚󰜋𤉗󰡆",
+            "points": [
+                [
+                    379,
+                    74
+                ],
+                [
+                    417,
+                    76
+                ],
+                [
+                    406,
+                    273
+                ],
+                [
+                    368,
+                    271
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "傷嘆愁扵傷昆卿知",
+            "points": [
+                [
+                    363,
+                    374
+                ],
+                [
+                    398,
+                    375
+                ],
+                [
+                    385,
+                    670
+                ],
+                [
+                    350,
+                    668
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "哙𠿯恪𧘇唅濛",
+            "points": [
+                [
+                    329,
+                    68
+                ],
+                [
+                    370,
+                    71
+                ],
+                [
+                    359,
+                    277
+                ],
+                [
+                    317,
+                    275
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "䏾𠦳如滛𨤮洡𦛌肝",
+            "points": [
+                [
+                    310,
+                    371
+                ],
+                [
+                    348,
+                    373
+                ],
+                [
+                    330,
+                    673
+                ],
+                [
+                    292,
+                    671
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𥙩𠳐眷當𨀈盘𫳵",
+            "points": [
+                [
+                    280,
+                    36
+                ],
+                [
+                    317,
+                    38
+                ],
+                [
+                    307,
+                    266
+                ],
+                [
+                    270,
+                    264
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "迻𠊛推𠓨浪昆洳󰅒",
+            "points": [
+                [
+                    262,
+                    368
+                ],
+                [
+                    297,
+                    371
+                ],
+                [
+                    277,
+                    673
+                ],
+                [
+                    242,
+                    671
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "料命默𢬣𠁀",
+            "points": [
+                [
+                    223,
+                    63
+                ],
+                [
+                    268,
+                    63
+                ],
+                [
+                    266,
+                    273
+                ],
+                [
+                    220,
+                    272
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𠸗菊尽𥐆沛𨔍冲",
+            "points": [
+                [
+                    213,
+                    365
+                ],
+                [
+                    247,
+                    366
+                ],
+                [
+                    237,
+                    654
+                ],
+                [
+                    203,
+                    653
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𡲤庒渃𧘇𣌋縈",
+            "points": [
+                [
+                    184,
+                    65
+                ],
+                [
+                    219,
+                    66
+                ],
+                [
+                    208,
+                    272
+                ],
+                [
+                    172,
+                    270
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "蒙神𫃚𠎪呵𬼀散𣃣",
+            "points": [
+                [
+                    165,
+                    358
+                ],
+                [
+                    200,
+                    359
+                ],
+                [
+                    189,
+                    666
+                ],
+                [
+                    155,
+                    664
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "福󰅒󰠲𧘇𤎜漏",
+            "points": [
+                [
+                    137,
+                    58
+                ],
+                [
+                    171,
+                    59
+                ],
+                [
+                    166,
+                    260
+                ],
+                [
+                    132,
+                    259
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "別浪𠖈兎沙散淑耒",
+            "points": [
+                [
+                    122,
+                    362
+                ],
+                [
+                    154,
+                    363
+                ],
+                [
+                    140,
+                    655
+                ],
+                [
+                    108,
+                    654
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001_Processed_Rotated/page_366.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}

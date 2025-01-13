@@ -1,0 +1,614 @@
+{
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_544.json
+    "page": 544,
+    "result": [
+        {
+            "transcription": "生之秋𣈜次𠀧醒吏󰖧各理造",
+            "points": [
+                [
+                    381,
+                    116
+                ],
+                [
+                    402,
+                    116
+                ],
+                [
+                    395,
+                    366
+                ],
+                [
+                    375,
+                    366
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主之秋𤯩吏畧歇𠫾咏德嫗",
+            "points": [
+                [
+                    355,
+                    116
+                ],
+                [
+                    375,
+                    116
+                ],
+                [
+                    370,
+                    346
+                ],
+                [
+                    349,
+                    346
+========
+    "page": 230,
+    "result": [
+        {
+            "transcription": "朱名荄伵特𡗶茹信",
+            "points": [
+                [
+                    410,
+                    339
+                ],
+                [
+                    448,
+                    338
+                ],
+                [
+                    457,
+                    654
+                ],
+                [
+                    420,
+                    655
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_230.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_544.json
+            "transcription": "主支秋朱瑞蘇瓊𥊣圜命",
+            "points": [
+                [
+                    332,
+                    117
+                ],
+                [
+                    351,
+                    117
+                ],
+                [
+                    343,
+                    343
+                ],
+                [
+                    325,
+                    342
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主之秋傅朱謂𢩾骸金顒",
+            "points": [
+                [
+                    305,
+                    117
+                ],
+                [
+                    323,
+                    117
+                ],
+                [
+                    318,
+                    342
+                ],
+                [
+                    299,
+                    342
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋制名苔伵𠫾泣世講道",
+            "points": [
+                [
+                    278,
+                    115
+                ],
+                [
+                    299,
+                    115
+                ],
+                [
+                    292,
+                    364
+                ],
+                [
+                    272,
+                    364
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主之秋畧𩈘天下鑑𠳒",
+            "points": [
+                [
+                    252,
+                    116
+                ],
+                [
+                    272,
+                    116
+                ],
+                [
+                    267,
+                    300
+                ],
+                [
+                    246,
+                    299
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主之秋歇代吏𫴋判察",
+            "points": [
+                [
+                    228,
+                    114
+                ],
+                [
+                    246,
+                    114
+                ],
+                [
+                    239,
+                    298
+                ],
+                [
+                    222,
+                    297
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主支秋恒固𡳒营",
+            "points": [
+                [
+                    199,
+                    113
+                ],
+                [
+                    219,
+                    113
+                ],
+                [
+                    217,
+                    258
+                ],
+                [
+                    197,
+                    258
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "疎他罪眾碎",
+            "points": [
+                [
+                    193,
+                    322
+                ],
+                [
+                    217,
+                    323
+                ],
+                [
+                    214,
+                    429
+                ],
+                [
+                    189,
+                    428
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "矯及事災事與",
+            "points": [
+                [
+                    173,
+                    111
+                ],
+                [
+                    195,
+                    111
+                ],
+                [
+                    191,
+                    238
+                ],
+                [
+                    170,
+                    238
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "母主支秋助眾碎翠句懲拱䜹如丕",
+            "points": [
+                [
+                    168,
+                    323
+                ],
+                [
+                    190,
+                    324
+                ],
+                [
+                    179,
+                    602
+                ],
+                [
+                    158,
+                    602
+========
+            "transcription": "吏爫誇慄冲頑",
+            "points": [
+                [
+                    403,
+                    27
+                ],
+                [
+                    443,
+                    26
+                ],
+                [
+                    446,
+                    246
+                ],
+                [
+                    407,
+                    247
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "油𤯩油死拱仃﨤𢚸",
+            "points": [
+                [
+                    358,
+                    345
+                ],
+                [
+                    395,
+                    344
+                ],
+                [
+                    407,
+                    653
+                ],
+                [
+                    370,
+                    654
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "󰒂迻數𬼀如𣳔",
+            "points": [
+                [
+                    349,
+                    30
+                ],
+                [
+                    390,
+                    29
+                ],
+                [
+                    394,
+                    246
+                ],
+                [
+                    353,
+                    247
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "主昆朱時𬑉𣘽𤑟𤉜",
+            "points": [
+                [
+                    310,
+                    348
+                ],
+                [
+                    345,
+                    347
+                ],
+                [
+                    352,
+                    657
+                ],
+                [
+                    316,
+                    658
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "哭差苔伵旦󰠲",
+            "points": [
+                [
+                    294,
+                    33
+                ],
+                [
+                    332,
+                    31
+                ],
+                [
+                    342,
+                    242
+                ],
+                [
+                    304,
+                    244
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𢈱𦖑唏派刘牚𬑉聀",
+            "points": [
+                [
+                    256,
+                    345
+                ],
+                [
+                    293,
+                    344
+                ],
+                [
+                    305,
+                    656
+                ],
+                [
+                    268,
+                    657
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_230.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_544.json
+            "transcription": "矯不義拱德主支秋",
+            "points": [
+                [
+                    148,
+                    109
+                ],
+                [
+                    169,
+                    109
+                ],
+                [
+                    164,
+                    278
+                ],
+                [
+                    142,
+                    277
+========
+            "transcription": "迻𩄲𠊛功海𡗉",
+            "points": [
+                [
+                    245,
+                    27
+                ],
+                [
+                    283,
+                    26
+                ],
+                [
+                    290,
+                    245
+                ],
+                [
+                    251,
+                    246
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_230.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_544.json
+            "transcription": "矯犯罪𦖑廣鬼惑壮",
+            "points": [
+                [
+                    142,
+                    322
+                ],
+                [
+                    162,
+                    322
+                ],
+                [
+                    158,
+                    484
+                ],
+                [
+                    137,
+                    484
+========
+            "transcription": "歇𧊉尼沚冷頃漏權",
+            "points": [
+                [
+                    206,
+                    349
+                ],
+                [
+                    245,
+                    348
+                ],
+                [
+                    255,
+                    658
+                ],
+                [
+                    217,
+                    659
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_230.json
+                ]
+            ],
+            "difficult": false
+        },
+        {
+<<<<<<<< HEAD:OCR_NOM/Sach-Nom-Cong-Giao-1995-005_Processed/page_544.json
+            "transcription": "矯隆道德主支秋",
+            "points": [
+                [
+                    121,
+                    107
+                ],
+                [
+                    143,
+                    107
+                ],
+                [
+                    137,
+                    254
+                ],
+                [
+                    116,
+                    254
+========
+            "transcription": "几凝䕯凌𨖅衝",
+            "points": [
+                [
+                    196,
+                    35
+                ],
+                [
+                    235,
+                    33
+                ],
+                [
+                    242,
+                    249
+                ],
+                [
+                    204,
+                    250
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𡬷𫀅勸顕信兜如釘",
+            "points": [
+                [
+                    155,
+                    350
+                ],
+                [
+                    192,
+                    349
+                ],
+                [
+                    203,
+                    659
+                ],
+                [
+                    166,
+                    660
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "几𠫾掣呐𨀈娄",
+            "points": [
+                [
+                    153,
+                    39
+                ],
+                [
+                    191,
+                    39
+                ],
+                [
+                    191,
+                    247
+                ],
+                [
+                    153,
+                    247
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "𧘇𦋦󰜋不鄰𡎢",
+            "points": [
+                [
+                    107,
+                    38
+                ],
+                [
+                    156,
+                    42
+                ],
+                [
+                    138,
+                    260
+                ],
+                [
+                    89,
+                    256
+                ]
+            ],
+            "difficult": false
+        },
+        {
+            "transcription": "差𠓨𦖑諱來明道𢚸",
+            "points": [
+                [
+                    102,
+                    347
+                ],
+                [
+                    140,
+                    346
+                ],
+                [
+                    151,
+                    660
+                ],
+                [
+                    113,
+                    661
+>>>>>>>> Cuon001:src/Output_OCR_Nom_Sach_001/page_230.json
+                ]
+            ],
+            "difficult": false
+        }
+    ]
+}
