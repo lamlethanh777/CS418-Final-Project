@@ -1,0 +1,1 @@
+- Standardized_QuocNgu_SinoNom_Dic.xlsx: this is derived from QuocNgu_SinoNom_Dic.xlsx, where each QN word is standardized (encoded) in another form to ensure consistency for OCR result (like "hoả" and "hỏa" are the same, so they will be encoded into "hoa3")

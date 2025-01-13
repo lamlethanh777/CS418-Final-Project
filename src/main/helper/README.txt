@@ -1,0 +1,2 @@
+- page_ranges.py: consists of all batch pairs for each book. (1-1 pages, 1-n pages, m-n pages)
+- standardize_qn.py: standardize QN words (encoded) in another form to ensure consistency for OCR result (like "hoả" and "hỏa" are the same, so they will be encoded into "hoa3"), also used to create the Standardized_QuocNgu_SinoNom_Dic dictionary.

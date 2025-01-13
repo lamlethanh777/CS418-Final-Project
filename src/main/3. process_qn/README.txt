@@ -1,0 +1,2 @@
+- In the last submission, we use our own heuristic from old_postprocess_qn.py to separate morpho-syllables. However, we decide to change to Gemini API to separate them in this submission (somehow the result is not really better), this is presented in postprocess_qn_gemini.py
+- postprocess_qn-book-001.py: for book 001 only

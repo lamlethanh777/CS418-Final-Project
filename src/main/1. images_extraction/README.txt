@@ -1,0 +1,3 @@
+- cut_half.py: to cut pdf image from double-paged to single-paged.
+- crop_border.py: remove redundant space from each single-paged image, but we use a common crop proportion for each book.
+- rotate_image_to_the_right.py: for book 001 only, run before OCR.
